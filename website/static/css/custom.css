@@ -1,0 +1,50 @@
+.navigationSlider .slidingNav ul li a,
+.siteNavItemActive a,
+.fixedHeaderContainer a {
+  color:#777 !important;
+  font-weight: bold;
+}
+
+.mainContainer a {
+  color: #337ab7 !important;
+}
+
+.navGroup a:hover {
+  color:black !important;
+}
+
+h2,
+.projectTitle,
+.navListItemActive a {
+  color:#777 !important;
+}
+
+.button {
+  border: 1px solid #337ab7;
+  color:#777 !important;
+}
+
+.nav-footer {
+  background: #f8f8f8;
+}
+
+.nav-footer .copyright {
+  color: #777 !important;
+  font-weight: bold;
+  font-size: 85%;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
