@@ -4,6 +4,12 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "An IDE for designing systems",
+    "create-a-schema": "Create a Schema",
+    "Create a Schema": "Create a Schema",
+    "create-a-system": "Create a System",
+    "Create a System": "Create a System",
+    "installation": "Installation",
+    "Installation": "Installation",
     "quick-start-videos": "Quick Start in videos",
     "Quick Start in videos": "Quick Start in videos",
     "quick-start": "Quick Start",
@@ -12,8 +18,9 @@
     "What is Design First ?": "What is Design First ?",
     "what-is-system-designer": "What is System Designer ?",
     "What is System Designer ?": "What is System Designer ?",
-    "INTRODUCTION": "INTRODUCTION",
-    "Introduction": "Introduction"
+    "DOCUMENTATION": "DOCUMENTATION",
+    "Introduction": "Introduction",
+    "Guides": "Guides"
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",

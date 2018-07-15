@@ -15,7 +15,7 @@ const siteConfig = {
   organizationName: '',
 
   headerLinks: [
-    { doc: 'what-is-system-designer', label: 'INTRODUCTION' }
+    { doc: 'what-is-system-designer', label: 'DOCUMENTATION' }
   ],
 
   headerIcon: 'img/logo.png',
@@ -24,14 +24,18 @@ const siteConfig = {
 
   colors: {
     primaryColor: '#f8f8f8',
-    secondaryColor: '#f8f8f8',
+    secondaryColor: '#f8f8f8'
   },
 
   copyright: 'System Designer is distributed under Apache License 2.0 - Copyright © 2018 Erwan Carriou',
 
   highlight: {
-    theme: 'zenburn',
+    theme: 'zenburn'
   },
+
+  scripts: [
+    "../js/links.js"
+  ],
 
   onPageNav: 'separate'
 };

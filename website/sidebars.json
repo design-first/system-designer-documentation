@@ -5,6 +5,11 @@
       "what-is-design-first",
       "quick-start",
       "quick-start-videos"
+    ],
+    "Guides": [
+      "installation",
+      "create-a-system",
+      "create-a-schema"
     ]
   }
 }
