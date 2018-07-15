@@ -195,7 +195,7 @@ In certain cases, you will need to call the parent method in your code. To do it
 this.require('Person').fullName(this);
 ```
 
-## Use logger component APIS"
+## Use logger component APIS
 
 You can require the  *logger* component to log messages. You can use:
 

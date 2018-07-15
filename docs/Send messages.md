@@ -90,7 +90,7 @@ function somethingHappened(param) {
 }
 ```
 
-##Send the message
+## Send the message
 
 * on *Behavior* tab, select your system  (on the right panel under *System*),
 * click on *start* behavior,
