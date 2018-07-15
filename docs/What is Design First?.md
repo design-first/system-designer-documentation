@@ -9,6 +9,8 @@ sidebar_label: What is Design First ?
  * **System Designer** a UI designer to create systems and
  * **[System Runtime](https://designfirst.io/systemruntime/),** a JavaScript library to run and manage systems.
 
+>**What is a system?**
+>
 > A system is an application: 
 >- defined by a model,
 >- composed by components and

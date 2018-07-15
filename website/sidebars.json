@@ -11,7 +11,18 @@
       "create-a-system",
       "create-a-schema",
       "edit-a-model",
-      "create-a-behavior"
+      "create-a-behavior",
+      "create-a-type",
+      "create-a-component",
+      "run-your-system",
+      "export-a-system",
+      "import-a-system",
+      "generate-a-class-diagram",
+      "sync-your-system-with-github",
+      "design-a-remote-client-system",
+      "design-a-remote-server-system",
+      "manage-extensions",
+      "extend-system-designer"
     ]
   }
 }
