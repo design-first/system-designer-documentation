@@ -1,0 +1,93 @@
+---
+id: listen-to-a-repository-event
+title: Listen to a repository event
+sidebar_label: Listen to a repository event
+---
+
+In this tutorial we will show how to listen to a components repository event.
+
+>**Component repository**
+>
+>All your components are stored at runtime in a **repository** that you can access with [System Runtime APIs](https://system-runtime.readme.io/docs/manage-your-components).
+>It sends:
+>- an **update** event when a component has been updated in the repository,
+>- an **insert** event when a component has been created in the repository and
+>- a **remove** event when a component has been deleted from the repository.
+
+## Define your system
+
+First create a schema that:
+
+* has for name **Person**
+* has a **name** property
+
+```json
+{
+  "_id": "b13d3510f7c15b1c",
+  "_name": "Person",
+  "_inherit": [
+    "_Component"
+  ],
+  "name": "property"
+}
+```
+
+* then create a component,
+* click on it to edit it,
+* change the value of **_id** to *luke*,
+
+```json
+{
+  "_id": "luke",
+  "name": ""
+}
+```
+
+* then edit the **start** method of your system and 
+* add this code:
+
+```js
+function start() { 
+  // get luke component
+  const luke = this.require('luke');
+  
+  // set the name property of luke component
+  luke.name('luke');
+}
+```
+
+## Listen to an update event of the repository
+
+* click on the import button on the left toolbar,
+* a dialog is shown,
+* click on **from the library** radio button,
+* select **Listen to components collection events** from the proposed systems,
+* click on the **Compose** button,
+
+![Image Alt](../img/96f0d35-listen-collection-event.png)
+
+This system has now been composed in your system.
+* on **Behaviors** tab, click on **_Database** model (on the right panel under *Models*),
+* click on the **update** behavior to edit it,
+* add this code:
+
+```js
+function update(event) { 
+  // get logger component
+  const logger = this.require('logger');
+  
+  // react only if the update occurs on Person
+  if (event.collection === 'Person') {
+    logger.info('component ' + event.id + ' has for new property ' + event.field + ' : ' + event.value);
+  }
+}
+```
+
+* save it and
+* run your system.
+
+You will see a message telling that the property of the component has changed.
+
+![Image Alt](../img/5b2c3bf-db-listen.png)
+
+>A system makes a lot of update on the repository when running, so for performance reason always filter on a specific collection.

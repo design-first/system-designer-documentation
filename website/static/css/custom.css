@@ -2,7 +2,6 @@
 .siteNavItemActive a,
 .fixedHeaderContainer a {
   color:#777 !important;
-  font-weight: bold;
 }
 
 .mainContainer a {
@@ -30,7 +29,6 @@ h2,
 
 .nav-footer .copyright {
   color: #777 !important;
-  font-weight: bold;
   font-size: 85%;
 }
 

@@ -15,7 +15,10 @@ const siteConfig = {
   organizationName: '',
 
   headerLinks: [
-    { doc: 'what-is-system-designer', label: 'DOCUMENTATION' }
+    { doc: 'what-is-system-designer', label: 'Documentation' },
+    { href: 'https://system-designer.readme.io/discuss', label: 'Support' },
+    { href: 'https://system-designer.readme.io/blog', label: 'Blog' },
+    { href: 'https://github.com/design-first/system-designer', label: 'Github' }
   ],
 
   headerIcon: 'img/logo.png',

@@ -23,6 +23,33 @@
       "design-a-remote-server-system",
       "manage-extensions",
       "extend-system-designer"
+    ],
+    "Tutorials": [
+      "list-examples",
+      "bundle-your-css",
+      "bundle-your-javascript",
+      "bundle-your-html",
+      "test-a-server-side-application",
+      "create-a-npm-module",
+      "create-a-website",
+      "listen-to-a-model-event",
+      "listen-to-a-repository-event",
+      "send-messages",
+      "send-messages-to-other-systems",
+      "create-an-extension",
+      "generate-a-model-from-a-json-file"
+    ],
+    "Tips": [
+      "faq",
+      "shortcuts",
+      "migration-guide"
+    ],
+    "Articles": [
+      "articles-about-the-project"
+    ],
+    "About": [
+      "who-is-behind-system-designer",
+      "privacy-policy"
     ]
   }
 }

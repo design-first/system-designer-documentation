@@ -22,7 +22,7 @@ To export a system just click on the *export* button (the icon with a square and
 
 ## Export to JSON
 
-When exporting a system to a **JSON** file you will able to [import it in System Designer later or merge it to another system](https://system-designer.readme.io/docs/import-a-system).
+When exporting a system to a **JSON** file you will able to [import it in System Designer later or merge it to another system](Import a System.md).
 
 You can also **install it in a client-side or server-side application**.
 
