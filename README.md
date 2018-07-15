@@ -1,5 +1,28 @@
 # System Designer Documentation Website
 
+## Installation
+
+Clone the repository:
+
+```sh
+$ git clone https://github.com/design-first/system-designer-documentation.git
+```
+
+Install the dependencies:
+
+```sh
+$ cd website
+$ npm i
+```
+
+## Build the documentation
+
+```sh
+$ npm run build
+```
+
+Then go to `build/docs` folder and open `what-is-system-designer.html`.
+
 ## Licenses
 
 ### System Designer website template
@@ -25,29 +48,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-## Installation
-
-Clone the repository:
-
-```sh
-$ git clone https://github.com/design-first/system-designer-documentation.git
-```
-
-Install the dependencies:
-
-```sh
-$ cd website
-$ npm i
-```
-
-## Build the documentation
-
-```sh
-$ npm run build
-```
-
-Then go to `build/docs` folder and open `what-is-system-designer.html`.
 
 ### System Designer
 
