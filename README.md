@@ -25,7 +25,7 @@ Then go to `build/docs` folder and open `what-is-system-designer.html`.
 
 ## Licenses
 
-### System Designer website template
+### System Designer documentation template
 
 The MIT License (MIT)
 

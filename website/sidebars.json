@@ -9,7 +9,9 @@
     "Guides": [
       "installation",
       "create-a-system",
-      "create-a-schema"
+      "create-a-schema",
+      "edit-a-model",
+      "create-a-behavior"
     ]
   }
 }

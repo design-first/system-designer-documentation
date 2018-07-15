@@ -94,7 +94,7 @@ Now let's create this system.
 
 ## Edit a model
 
->**What is a model ?**
+>**What is a model?**
 >
 >A model is the UML representation of the class that you will use in your system. You can edit these models and update many informations (type, default value, ...).
 
@@ -102,7 +102,7 @@ Now let's create this system.
 
 ![Image Alt](../img/8f2592d-quick-start-5.png)
 
->**What are the values set by default ?**
+>**What are the values set by default?**
 >
 >In the example:
 >- all *properties* have type **any**: they can have all kind of type,
