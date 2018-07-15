@@ -1,5 +1,7 @@
 # System Designer Documentation
 
+![Image Alt](https://designfirst.io/img/documentation.png)
+
 ## Installation
 
 Clone the repository:
