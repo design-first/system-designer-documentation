@@ -1,4 +1,4 @@
-# System Designer Documentation Website
+# System Designer Documentation
 
 ## Installation
 
