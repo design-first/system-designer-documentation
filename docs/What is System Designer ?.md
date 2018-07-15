@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: what-is-system-designer
 title: What is System Designer ?
 sidebar_label: What is System Designer ?
 ---

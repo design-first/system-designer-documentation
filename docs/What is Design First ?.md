@@ -1,5 +1,5 @@
 ---
-id: doc2
+id: what-is-design-first
 title: What is Design First ?
 sidebar_label: What is Design First ?
 ---

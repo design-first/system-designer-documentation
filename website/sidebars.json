@@ -1,8 +1,10 @@
 {
   "docs": {
     "Introduction": [
-      "doc1",
-      "doc2"
+      "what-is-system-designer",
+      "what-is-design-first",
+      "quick-start",
+      "quick-start-videos"
     ]
   }
 }

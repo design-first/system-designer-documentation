@@ -15,7 +15,7 @@ const siteConfig = {
   organizationName: '',
 
   headerLinks: [
-    { doc: 'doc1', label: 'INTRODUCTION' },
+    { doc: 'what-is-system-designer', label: 'INTRODUCTION' }
   ],
 
   headerIcon: 'img/logo.png',
@@ -30,7 +30,7 @@ const siteConfig = {
   copyright: 'System Designer is distributed under Apache License 2.0 - Copyright © 2018 Erwan Carriou',
 
   highlight: {
-    theme: 'default',
+    theme: 'zenburn',
   },
 
   onPageNav: 'separate'
