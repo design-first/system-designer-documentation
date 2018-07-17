@@ -28,7 +28,7 @@ To create a behavior in System Designer:
 
 >**Why some behaviors are already there?**
 >
->When you define a **event** or a **method** for a schema, System Designer generates by default their behaviors.
+>When you define a **method** for a schema, System Designer generates by default their behaviors.
 
 ## Behavior edition
 
