@@ -32,6 +32,10 @@ h2,
   font-size: 85%;
 }
 
+.navListItem.navListItemActive {
+  background-color: #f8f8f8;
+}
+
 /*
 
 Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
@@ -163,6 +167,13 @@ pre .btn-icon:hover {
 
 .btn-clipboard {
   right: 10px;
+}
+
+/* block quote */
+
+blockquote {
+  border-left: 8px solid #5bc0de;
+  background-color: #e3edf2;
 }
 
 /* media queries */
