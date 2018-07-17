@@ -32,7 +32,9 @@ const siteConfig = {
   },
 
   scripts: [
-    "../js/links.js"
+    '../js/links.js',
+    '../js/clipboard.js',
+    '../js/copy.js'
   ],
 
   onPageNav: 'separate'

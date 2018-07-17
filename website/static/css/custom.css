@@ -123,6 +123,48 @@ based on dark.css by Ivan Sagalaev
   top:98px !important;
 }
 
+/* copy functionnality */
+
+pre {
+  position: relative;
+}
+
+pre .btn-icon {
+  position: absolute;
+  top: 0px;
+  z-index: 2;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0;
+  color: #fff;
+  background-color: transparent;
+  height: 34px;
+  transition: all .25s ease-out;
+}
+
+pre .btn-icon:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-icon__body {
+  align-items: center;
+  display: flex;
+}
+
+.btn-icon svg {
+  fill: currentColor;
+  margin-right: .4em;
+}
+
+.btn-icon__label {
+  font-size: 11px;
+}
+
+.btn-clipboard {
+  right: 10px;
+}
+
 /* media queries */
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
