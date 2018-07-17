@@ -131,6 +131,6 @@ runtime.install('system2.json');
 >
 >See [in this guide](Export a System.md#export-to-json) to have more details on how to install your bundle client-side or client-side.
 
->**You can bunlde any JavaScript library**
+>**You can bundle any JavaScript library**
 >
 >System Designer allows you to easily import JavaScript libraries like [React](http://facebook.github.io/react/) in your system.
