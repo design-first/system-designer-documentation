@@ -1,0 +1,32 @@
+/* */
+
+.navPusher { 
+  padding-top: 50px;
+}
+
+.onPageNav {
+  top:98px !important;
+}
+
+/* media queries */
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  .onPageNav {
+    top:98px !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+  .onPageNav {
+    top:98px !important;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

@@ -1,14 +1,7 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 const siteConfig = {
   title: 'System Designer',
   tagline: 'An IDE for designing systems',
-  url: 'https://designfirst.io/systemdesigner/',
+  url: 'https://designfirst.io',
   baseUrl: '../',
 
   projectName: '',
@@ -37,7 +30,10 @@ const siteConfig = {
     '../js/copy.js'
   ],
 
-  onPageNav: 'separate'
+  onPageNav: 'separate',
+  scrollToTop: true,
+  disableHeaderTitle: false
+
 };
 
 module.exports = siteConfig;

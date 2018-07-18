@@ -108,23 +108,12 @@ based on dark.css by Ivan Sagalaev
   color: #7f9f7f;
 }
 
-
 .hljs-emphasis {
   font-style: italic;
 }
 
 .hljs-strong {
   font-weight: bold;
-}
-
-/* */
-
-.navPusher { 
-  padding-top: 50px;
-}
-
-.onPageNav {
-  top:98px !important;
 }
 
 /* copy functionnality */
@@ -176,25 +165,9 @@ blockquote {
   background-color: #e3edf2;
 }
 
-/* media queries */
+/* back to top */
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
-  .onPageNav {
-    top:98px !important;
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-}
-
-@media only screen and (max-width: 1023px) {
-  .onPageNav {
-    top:98px !important;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-}
-
-@media only screen and (min-width: 1500px) {
+#back-to-top {
+  background: #fff;
+  color: #000;
 }
