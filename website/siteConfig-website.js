@@ -1,23 +1,15 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 const siteConfig = {
   title: 'System Designer',
   tagline: 'An IDE for designing systems',
-  url: 'https://designfirst.io/systemdesigner/',
-  baseUrl: '../',
+  url: 'https://designfirst.io',
+  baseUrl: '/systemdesigner/documentation/',
 
   projectName: '',
   organizationName: '',
 
   headerLinks: [
     { doc: 'what-is-system-designer', label: 'Documentation' },
-    { href: 'https://system-designer.readme.io/discuss', label: 'Support' },
-    { href: 'https://system-designer.readme.io/blog', label: 'Blog' },
+    { href: 'https://github.com/design-first/system-designer/issues', label: 'Support' },
     { href: 'https://github.com/design-first/system-designer', label: 'Github' }
   ],
 
@@ -37,12 +29,15 @@ const siteConfig = {
   },
 
   scripts: [
-    "../js/links.js"
+    '../js/links-website.js',
+    '../js/clipboard.js',
+    '../js/copy.js'
   ],
 
   onPageNav: 'separate',
+  scrollToTop: true,
+  disableHeaderTitle: false
 
-  cleanUrl: true
 };
 
 module.exports = siteConfig;
