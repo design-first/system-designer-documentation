@@ -20,7 +20,7 @@ Yes. Informations that are saved are only:
 * your systems and
 * your IDE preferences.
 
-There is no tracker on System Designer, System Designer website.
+There is no tracker on System Designer, System Designer website and System Designer documentation website.
 
 ## So where these informations are saved?
 

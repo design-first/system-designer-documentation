@@ -8,9 +8,9 @@ const siteConfig = {
   organizationName: '',
 
   headerLinks: [
-    { doc: 'what-is-system-designer', label: 'Documentation' },
-    { href: 'https://github.com/design-first/system-designer/issues', label: 'Support' },
-    { href: 'https://github.com/design-first/system-designer', label: 'Github' }
+    { doc: 'what-is-system-designer', label: 'DOCUMENTATION' },
+    { href: 'https://github.com/design-first/system-designer/issues', label: 'SUPPORT' },
+    { href: 'https://github.com/design-first/system-designer', label: 'GITHUB' }
   ],
 
   headerIcon: 'img/logo.png',
