@@ -29,21 +29,21 @@ Then copy and paste the content of the **/node_modules/system-designer/dist** re
 Clone the [GitHub repository](https://github.com/design-first/system-designer):
 
 ```shell
-$ git clone https://github.com/design-first/system-designer.git
+git clone https://github.com/design-first/system-designer.git
 ```
 
 Once you have cloned the repository, install the dependencies:
 
 ```shell
-$ npm i
+npm i
 ```
 
 Then build and start System Designer:
 
 ```shell
 # build
-$ npm run build
+npm run build
 # start web server
-$ npm run start
+npm run start
 ```
 Once server started, go to [http://localhost:8080/](http://localhost:8080/).

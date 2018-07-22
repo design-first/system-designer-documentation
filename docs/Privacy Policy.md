@@ -20,7 +20,7 @@ Yes. Informations that are saved are only:
 * your systems and
 * your IDE preferences.
 
-There is no tracker on System Designer and System Designer website. The only trackers that exist are on the documentation website. We can not remove them as they are part of Readme. For more information about these trackers, visit [Readme Privacy Policy](https://readme.io/privacy/). 
+There is no tracker on System Designer, System Designer website.
 
 ## So where these informations are saved?
 

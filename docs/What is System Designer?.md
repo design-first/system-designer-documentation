@@ -24,7 +24,7 @@ If you look at the different JavaScript frameworks on the market, you will notic
 
 System Designer uses [UML](http://www.uml.org), a standard, to define your model. So you probably already how to design in System Designer even if you have never run it.
 
-The definition of the model is stored on a JSON format called [MSON](https://system-runtime.readme.io/docs/design-your-model#section-mson). With [MSON](https://system-runtime.readme.io/docs/design-your-model#section-mson) you can define types, classes, one to one / one to many relationships and multi inheritance between classes.
+The definition of the model is stored on a JSON format called [MSON](https://designfirst.io/systemruntime/documentation/docs/design-your-model.html#defining-your-model). With [MSON](https://designfirst.io/systemruntime/documentation/docs/design-your-model.html#defining-your-model) you can define types, classes, one to one / one to many relationships and multi inheritance between classes.
 
 ## Code the behavior of your system
 

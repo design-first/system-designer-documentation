@@ -8,7 +8,7 @@ In this tutorial we will show how to listen to a components repository event.
 
 >**Component repository**
 >
->All your components are stored at runtime in a **repository** that you can access with [System Runtime APIs](https://system-runtime.readme.io/docs/manage-your-components).
+>All your components are stored at runtime in a **repository** that you can access with [System Runtime APIs](https://designfirst.io/systemruntime/documentation/docs/manage-your-components.html).
 >It sends:
 >- an **update** event when a component has been updated in the repository,
 >- an **insert** event when a component has been created in the repository and

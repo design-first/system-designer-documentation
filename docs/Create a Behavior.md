@@ -215,7 +215,7 @@ this.require('logger').info('this is an message');
 
 ## Use db component APIS
 
-All the components are stored at runtime in a **repository** that you can access with [System Runtime APIs](https://system-runtime.readme.io/docs/manage-your-components). You can use them in your behaviors by requiring the **db** component.
+All the components are stored at runtime in a **repository** that you can access with [System Runtime APIs](https://designfirst.io/systemruntime/documentation/docs/manage-your-components.html). You can use them in your behaviors by requiring the **db** component.
 
 Let's imagine you have created a *Person* schema and that you want to get the number of person component created:
 
@@ -237,7 +237,7 @@ You can use all these APIs on a collection:
 * **update(query: object, update: object)**: update a component and
 * **remove(query: object)**: delete a component.
 
->For more information go to the [System Runtime documentation](https://system-runtime.readme.io/docs/manage-your-components)
+>For more information go to the [System Runtime documentation](https://designfirst.io/systemruntime/documentation/docs/manage-your-components.html)
 
 ## Advanced mode
 
@@ -250,4 +250,4 @@ You can for example
 * enable the use of internal APIs with **useCoreAPI** property or
 * avoid the exportation of the method with **core** property.
 
->You will find [here the list of internal APIS that you can use](https://system-runtime.readme.io/docs/go-deeper).
+>You will find [here the list of internal APIS that you can use](https://designfirst.io/systemruntime/documentation/docs/go-deeper.html).

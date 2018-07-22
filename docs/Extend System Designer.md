@@ -16,13 +16,13 @@ There are many ways to add new functionalities to System Designer. To do so you 
 To update System Designer, you will need to [clone the repository](https://github.com/design-first/system-designer):
 
 ```shell
-$ git clone https://github.com/design-first/system-designer.git
+git clone https://github.com/design-first/system-designer.git
 ```
 
 Once you have cloned the repository, install the dependencies:
 
 ```shell
-$ npm i
+npm i
 ```
 
 ### Enable development mode
@@ -30,7 +30,7 @@ $ npm i
 Start System Designer in development mode:
 
 ```shell
-$ npm run dev
+npm run dev
 ```
 
 Once server started, go to http://localhost:9001/.
@@ -57,7 +57,7 @@ To extend System Designer:
 * build System Designer:
 
 ```shell
-$ npm run build
+npm run build
 ```
 
 Your system will be then compose with System Designer core system.
@@ -72,7 +72,7 @@ To do so:
 * build System Designer:
 
 ```shell
-$ npm run build
+npm run build
 ````
 
 Your system will be then shown in the list of extensions.

@@ -48,7 +48,7 @@ Now let's create this system.
 
 ## Create a schema
 
->**What is a schema?**
+>**What is a schema ?**
 >
 >A schema helps you to define your model. A schema generates a model based on very simple informations. You can then edit the generated model
 
@@ -81,20 +81,20 @@ Now let's create this system.
 
 ![Image Alt](../img/1e2f47c-quick-start-3.png)
 
->**What can be defined in a schema?**
+>**What can be defined in a schema ?**
 >- Use **property** for defining a property. 
 >- Use **link** for defining a one-to-one relationship between models.
 >- Use **collection** for defining a one-to-many relationship between models.
 >- Use **method** for defining a method.
 >- Use **event** for defining an event.
 
->**What happens when you save a schema?**
+>**What happens when you save a schema ?**
 >
 >A model will be automatically generated based on the informations you set in the schema.
 
 ## Edit a model
 
->**What is a model?**
+>**What is a model ?**
 >
 >A model is the UML representation of the class that you will use in your system. You can edit these models and update many informations (type, default value, ...).
 
@@ -102,12 +102,12 @@ Now let's create this system.
 
 ![Image Alt](../img/8f2592d-quick-start-5.png)
 
->**What are the values set by default?**
+>**What are the values set by default ?**
 >
 >In the example:
 >- all *properties* have type **any**: they can have all kind of type,
 >- all *links* have **_Component** type: they can be linked to any kind of object and
->-all *methods* have one parameter *param* of type **any** and they return a value of type **any**.
+>- all *methods* have one parameter *param* of type **any** and they return a value of type **any**.
 
 * click on the **Jedi** model,
 * update the model with this:
@@ -144,17 +144,17 @@ Now let's create this system.
 
 ![Image Alt](../img/e913221-quick-start-32.png)
 
->**What has be done?**
+>**What has be done ?**
 >
 >In this example, we have:
->-set the type of **firstName** to **string**,
->-set the type of **lastName** to **string**,
->-set the type of **father** link to **Jedi** (the father of a Jedi is a Jedi) and
->-remove all the parameter definition of the **fullName** method.
+>- set the type of **firstName** to **string**,
+>- set the type of **lastName** to **string**,
+>- set the type of **father** link to **Jedi** (the father of a Jedi is a Jedi) and
+>- remove all the parameter definition of the **fullName** method.
 
 ## Add a behavior
 
->**What is a behavior?**
+>**What is a behavior ?**
 >
 >A behavior is an **action** that is executed when we change the state of a component or invoke one of its method.
 
@@ -187,7 +187,7 @@ function fullName() {
 
 ## Create components
 
->**What is a component?**
+>**What is a component ?**
 >
 >A component is the instance of one class of your model. You can define them graphically but you can of course create them with code (but do not forget to require the class before using it in that case, example: *const Jedi = this.require('Jedi')* ).
 
@@ -197,7 +197,7 @@ function fullName() {
 
 ![Image Alt](../img/3209d4b-quick-start-7.png)
 
->**What are the informations set by default?**
+>**What are the informations set by default ?**
 >
 >All the value of the **attributes**, **links** or **collections** are set with the **default** property value of the model.
 
@@ -267,7 +267,7 @@ function start() {
 
 ![Image Alt](../img/e9f6708-quick-start-11.png)
 
->**What is a logger component?**
+>**What is a logger component ?**
 >
 >A **logger** component is available to log messages in System Designer.
 

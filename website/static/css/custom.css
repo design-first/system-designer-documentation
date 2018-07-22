@@ -36,6 +36,16 @@ h2,
   background-color: #f8f8f8;
 }
 
+.navigationSlider .slidingNav ul li a {
+  font-weight: bold !important;
+}
+
+@media only screen and (min-width: 1024px) {
+  .navigationSlider .slidingNav ul li a {
+    font-weight: bold !important;
+  }
+}
+
 /*
 
 Zenburn style from voldmar.ru (c) Vladimir Epifanov <voldmar@voldmar.ru>
@@ -170,4 +180,12 @@ blockquote {
 #back-to-top {
   background: #fff;
   color: #000;
+}
+
+/* logo */
+
+@media (max-width: 480px) {
+  .headerTitleWithLogo {
+    display: block!important;
+  }
 }

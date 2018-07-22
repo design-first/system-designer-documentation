@@ -224,4 +224,4 @@ This new event has one parameter of **any** type that is not mandatory and has *
 
 >**Want to know more?**
 >
->For more information on model definition, go to the [System Runtime documentation](https://system-runtime.readme.io/docs/design-your-model).
+>For more information on model definition, go to the [System Runtime documentation](https://designfirst.io/systemruntime/documentation/docs/design-your-model.html).

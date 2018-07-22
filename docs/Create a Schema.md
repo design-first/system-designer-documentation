@@ -111,4 +111,4 @@ To define an event, add a key that has got an **event** value. An event is a asy
 
 >**Want to know more?**
 > 
->For more information on schemas, go to the [System Runtime documentation](https://system-runtime.readme.io/docs/design-your-model#section-defining-a-class).
+>For more information on schemas, go to the [System Runtime documentation](https://designfirst.io/systemruntime/documentation/docs/design-your-model.html).
