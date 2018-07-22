@@ -1,6 +1,6 @@
 # System Designer Documentation
 
-![Image Alt](https://designfirst.io/img/documentation.png)
+![Image Alt](https://designfirst.io/img/system-designer-documentation.png)
 
 ## Installation
 
