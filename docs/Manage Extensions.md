@@ -12,7 +12,6 @@ Extensions are in fact systems that can be installed on the fly in System Design
 
 >**What can be done in extension?**
 >
->- menubar item creation,
 >- toolbar item creation,
 >- actions when clicking on them and
 >- dialog creations.
