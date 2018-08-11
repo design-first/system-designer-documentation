@@ -112,7 +112,8 @@ You can directly use it in your code:
 // it will be an array of components
 this.children();
 
-// get the firt element of the collection
+// get the firt element of the collection,
+// a component
 this.children(0);
 
 // set collection value
@@ -233,9 +234,39 @@ You can use all these APIs on a collection:
 
 * **count(): number**: count the number of created components,
 * **find(query: object)**: find components with a query,
+
+```js
+this.require('db').collections().Person.find({
+  'firstName': 'Luke'  
+});
+```
+
 * **insert(component: object)**: create a component,
+
+```js
+this.require('db').collections().Person.insert({
+  '_id': 'luke',
+  'firstName': 'Luke'  
+});
+```
+
 * **update(query: object, update: object)**: update a component and
+
+```js
+this.require('db').collections().Person.update({
+  '_id': 'luke' 
+}, {
+  'firstName': 'Luke'
+});
+```
+
 * **remove(query: object)**: delete a component.
+
+```js
+this.require('db').collections().Person.remove({
+  '_id': 'luke' 
+});
+```
 
 >For more information go to the [System Runtime documentation](https://designfirst.io/systemruntime/documentation/docs/manage-your-components.html)
 

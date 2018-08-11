@@ -15,7 +15,7 @@ You can use *System Designer* to create websites and edit them live.
 
 >**What are GitHub Pages?**
 >
->They are \"websites for you and your projects\". To have more information on *Github pages*, go [there](https://pages.github.com)."
+>They are \"websites for you and your projects\". To have more information on *Github pages*, go [there](https://pages.github.com).
 
 ## Configure your GitHub repository
 

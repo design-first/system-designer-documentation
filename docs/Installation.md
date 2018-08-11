@@ -16,7 +16,6 @@ sidebar_label: Installation
 Install System Designer from [npm](https://www.npmjs.com/package/system-designer):
 
 ```shell
-# install System Designer as a dependency
 npm i system-designer
 ```
 
@@ -41,9 +40,7 @@ npm i
 Then build and start System Designer:
 
 ```shell
-# build
 npm run build
-# start web server
 npm run start
 ```
 Once server started, go to [http://localhost:8080/](http://localhost:8080/).

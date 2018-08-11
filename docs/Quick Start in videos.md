@@ -4,8 +4,6 @@ title: Quick Start in videos
 sidebar_label: Quick Start in videos
 ---
 
->To see more more videos, go to [System Designer Vimeo Channel](https://vimeo.com/channels/1080596).
-
 In this video, you will see in 2 minutes:
 
 * how to create a schema,
@@ -14,3 +12,5 @@ In this video, you will see in 2 minutes:
 * how to start your system.
 
 [![Image Alt](../img/caps-video.png)](../videos/SystemDesigner.mp4)
+
+>To see more more videos, go to [System Designer Vimeo Channel](https://vimeo.com/channels/1080596).

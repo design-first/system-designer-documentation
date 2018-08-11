@@ -110,7 +110,7 @@ this.require('channel').somethingHappened('my message');
 * pass an object that contains the information send by the other system:
 
 ```js
-/ we suppose that this system runs on a server and
+// we suppose that this system runs on a server and
 // get the header and body of the request send by the other system
 
 this.require('runtime').message({

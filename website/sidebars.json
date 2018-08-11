@@ -22,7 +22,8 @@
       "design-a-remote-client-system",
       "design-a-remote-server-system",
       "manage-extensions",
-      "extend-system-designer"
+      "extend-system-designer",
+      "shortcuts"
     ],
     "Tutorials": [
       "list-examples",
@@ -38,11 +39,6 @@
       "send-messages-to-other-systems",
       "create-an-extension",
       "generate-a-model-from-a-json-file"
-    ],
-    "Tips": [
-      "faq",
-      "shortcuts",
-      "migration-guide"
     ],
     "Articles": [
       "articles-about-the-project"

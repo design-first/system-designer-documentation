@@ -31,7 +31,7 @@ You can easily create a [npm](https://www.npmjs.com) module with *System Designe
 
 - once you have created your system, open the *Github* panel,
 - add a comment,
-- click on **Add package.json file**,
+- click on **Add a package.json file**,
 
 ![Image Alt](../img/10f4418-push.png)
 

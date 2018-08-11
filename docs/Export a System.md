@@ -18,7 +18,7 @@ To export a system just click on the *export* button (the icon with a square and
 - a **JavaScript** file,
 - a **HTML** file,
 - a **Node.js** file
-- a **[DOT](https://en.wikipedia.org/wiki/DOT_%28graph_description_language%29)** file for [Graphviz](http://graphviz.org) software.
+- a **[DOT](https://en.wikipedia.org/wiki/DOT_%28graph_description_language%29)** file for [Graphviz](http://graphviz.org) softwares.
 
 ## Export to JSON
 
@@ -95,7 +95,7 @@ node mysystem.js
 
 >**What is the 'master' option?**
 >
->**A system can be composed of another systems**. It means that all schemas, models, behaviors and components of many systems can be merged in one system.\n\nWe call the **master** system, the system in which we will merge other systems at runtime.\n\nSo when exporting, you can set a system as **Master**.
+>**A system can be composed of another systems**. It means that all schemas, models, behaviors and components of many systems can be merged in one system. We call the **master** system, the system in which we will merge other systems at runtime. So when exporting, you can set a system as **Master**.
 
 ## Export to JavaScript
 

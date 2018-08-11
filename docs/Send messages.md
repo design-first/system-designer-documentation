@@ -11,7 +11,7 @@ In this tutorial we will show how to react to messages send by the system.
 ## Define the message
 
 After creating a system:
-* click on the** import** button on the left toolbar,
+* click on the **import** button on the left toolbar,
 * a dialog is shown,
 * click on **from the library** radio button,
 * select **Send messages threw a channel** from the proposed systems,
