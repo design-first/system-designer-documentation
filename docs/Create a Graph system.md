@@ -225,7 +225,7 @@ You will need to override **incoming** and **outgoing** links to specify the goo
 
 ![Image Alt](../img/create-a-graph-6.png)
 
-Then create 2 **Book** components that contain these codes:
+Then create 2 **Person** components that contain these codes:
 
 ```json
 {
