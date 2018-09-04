@@ -170,7 +170,7 @@ You will need to override **incoming** and **outgoing** links to specify the goo
   "_id": "z1747d12e621e92f",
   "_name": "IS_FRIEND_WITH",
   "_inherit": [
-  "Relationships"
+    "Relationships"
   ],
   "since": "property"
 }
@@ -304,3 +304,23 @@ You see now the complete Graph of your system.
 ![Image Alt](../img/create-a-graph-11.png)
 
 You see now the relations between all your nodes components.
+
+## Make requests on your graph
+
+To query your graph system you will need to use the NoSQL repository APIs.For example, you can add on the **start** method of your system:
+
+```js
+function start() {
+  this.require('logger').info(
+    this.require('db').collections().HAS_READ.find({
+      'outgoing': {
+        '$eq': 'GraphDatabase'
+      }
+    }).length
+  );
+}
+```
+
+It will give the number of person that have read `GraphDatabase` book.
+
+>You can see [here](https://designfirst.io/systemruntime/documentation/docs/document-collection.html) a list of available APIs to request your system.
