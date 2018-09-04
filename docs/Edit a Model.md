@@ -28,7 +28,7 @@ To edit a model in System Designer:
 
 A configuration is an object that defines the behavior of a property / link / collection / method / event of a model.
 
-You can edit for a *property* / *link* / *collection*:
+You can edit for a *property*:
 
 - **type**:  what is the type to the property ?
 - **readOnly**: can we change the value of a property after its initialization ?
@@ -36,6 +36,19 @@ You can edit for a *property* / *link* / *collection*:
 - **default**: what is the default value of the property ?
 
 >the **default** value needs to have the type defined in **type** property.
+
+You can edit for a *link* or a *collection*:
+
+- **type**:  what is the type to the link ?
+- **readOnly**: can we change the value of a link after its initialization ?
+- **mandatory**: is the link mandatory when creating an instance of the model ?
+- **default**: what is the default value of the link ?
+
+>the **default** value needs to have the type defined in **type** property.
+
+- **kind**: what is the kind of relationship ?
+
+>the **kind** property is used only in the Class diagram to specify the kind of link to show (i.e. *dependency*, *aggregation* or *composition*)
 
 You can edit for a *method* / *event*:
 

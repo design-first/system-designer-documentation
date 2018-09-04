@@ -17,7 +17,7 @@
       "run-your-system",
       "export-a-system",
       "import-a-system",
-      "generate-a-class-diagram",
+      "generate-a-diagram",
       "sync-your-system-with-github",
       "design-a-remote-client-system",
       "design-a-remote-server-system",
@@ -38,7 +38,8 @@
       "send-messages",
       "send-messages-to-other-systems",
       "create-an-extension",
-      "generate-a-model-from-a-json-file"
+      "generate-a-model-from-a-json-file",
+      "create-a-graph-system"
     ],
     "Articles": [
       "articles-about-the-project"

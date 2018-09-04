@@ -293,9 +293,11 @@ Then a new window will open and you will see the class diagram of your system.
 ![Image Alt](../img/a411ffe-system-designer-12b.png)
 
 You will be able to:
-*  zoom in/out ,
+* zoom in/out ,
 * move the diagram to explore the model or
 * export it to SVG.
+
+>You can also view the **Component diagram** and **Graph diagram** (if your system is a Graph) of your system.
 
 ## Use your system client side
 
