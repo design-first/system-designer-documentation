@@ -93,9 +93,9 @@ node mysystem.js
 
 [System Runtime](https://system-runtime.github.io) will install the system and run it.
 
->**What is the 'master' option?**
+>**What is the 'Core System' option?**
 >
->**A system can be composed of another systems**. It means that all schemas, models, behaviors and components of many systems can be merged in one system. We call the **master** system, the system in which we will merge other systems at runtime. So when exporting, you can set a system as **Master**.
+>**A system can be composed of another systems**. It means that all schemas, models, behaviors and components of many systems can be merged in one system. We call the **core** system, the system in which we will merge other systems at runtime. So when exporting, you can set a system as **Core system**.
 
 ## Export to JavaScript
 
