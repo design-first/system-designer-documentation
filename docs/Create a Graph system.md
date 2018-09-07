@@ -23,6 +23,10 @@ In this tutorial we will show how to create a Graph.
 
 This system contains **Nodes** and **Relationships** models that you need to extends to create your Graph.
 
+>**important**
+>
+>Do not rename **Nodes** and **Relationships** models, because they are used for creating Graph diagram.
+
 ## Create the nodes models
 
 * Click on *Schemas* tab and create a **Book** schema that inherit from **Nodes**:
