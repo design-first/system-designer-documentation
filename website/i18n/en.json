@@ -4,87 +4,168 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "An IDE for designing systems",
-    "articles-about-the-project": "Articles about the project",
-    "Articles about the project": "Articles about the project",
-    "bundle-your-css": "Bundle your CSS",
-    "Bundle your CSS": "Bundle your CSS",
-    "bundle-your-html": "Bundle your HTML",
-    "Bundle your HTML": "Bundle your HTML",
-    "bundle-your-javascript": "Bundle your JavaScript",
-    "Bundle your JavaScript": "Bundle your JavaScript",
-    "create-a-behavior": "Create a Behavior",
-    "Create a Behavior": "Create a Behavior",
-    "create-a-component": "Create a Component",
-    "Create a Component": "Create a Component",
-    "create-a-graph-system": "Create a Graph system",
-    "Create a Graph system": "Create a Graph system",
-    "create-a-npm-module": "Create a NPM module",
-    "Create a NPM module": "Create a NPM module",
-    "create-a-schema": "Create a Schema",
-    "Create a Schema": "Create a Schema",
-    "create-a-system": "Create a System",
-    "Create a System": "Create a System",
-    "create-a-type": "Create a Type",
-    "Create a Type": "Create a Type",
-    "create-a-website": "Create a website",
-    "Create a website": "Create a website",
-    "create-an-extension": "Create an extension",
-    "Create an extension": "Create an extension",
-    "design-a-remote-client-system": "Design a remote client system",
-    "Design a remote client system": "Design a remote client system",
-    "design-a-remote-server-system": "Design a remote server system",
-    "Design a remote server system": "Design a remote server system",
-    "edit-a-model": "Edit a model",
-    "Edit a model": "Edit a model",
-    "export-a-system": "Export a System",
-    "Export a System": "Export a System",
-    "extend-system-designer": "Extend System Designer",
-    "Extend System Designer": "Extend System Designer",
-    "generate-a-diagram": "Generate a diagram",
-    "Generate a diagram": "Generate a diagram",
-    "generate-a-model-from-a-json-file": "Generate a model from a JSON file",
-    "Generate a model from a JSON file": "Generate a model from a JSON file",
-    "import-a-system": "Import a System",
-    "Import a System": "Import a System",
-    "installation": "Installation",
-    "Installation": "Installation",
-    "list-examples": "List of Examples",
-    "List of Examples": "List of Examples",
-    "listen-to-a-model-event": "Listen to a model event",
-    "Listen to a model event": "Listen to a model event",
-    "listen-to-a-repository-event": "Listen to a repository event",
-    "Listen to a repository event": "Listen to a repository event",
-    "manage-extensions": "Manage Extensions",
-    "Manage Extensions": "Manage Extensions",
-    "privacy-policy": "Privacy Policy",
-    "Privacy Policy": "Privacy Policy",
-    "quick-start-videos": "Quick Start in videos",
-    "Quick Start in videos": "Quick Start in videos",
-    "quick-start": "Quick Start",
-    "Quick Start": "Quick Start",
-    "run-your-system": "Run your System",
-    "Run your System": "Run your System",
-    "send-messages-to-other-systems": "Send messages to other systems",
-    "Send messages to other systems": "Send messages to other systems",
-    "send-messages": "Send messages",
-    "Send messages": "Send messages",
-    "shortcuts": "Shortcuts",
-    "Shortcuts": "Shortcuts",
-    "sync-your-system-with-github": "Sync your systems with GitHub",
-    "Sync your systems with GitHub": "Sync your systems with GitHub",
-    "test-a-server-side-application": "Test a server-side application",
-    "Test a server-side application": "Test a server-side application",
-    "what-is-design-first": "What is Design First ?",
-    "What is Design First ?": "What is Design First ?",
-    "what-is-system-designer": "What is System Designer ?",
-    "What is System Designer ?": "What is System Designer ?",
-    "who-is-behind-system-designer": "Who is behind System Designer ?",
-    "Who is behind System Designer ?": "Who is behind System Designer ?",
-    "Introduction": "Introduction",
-    "Guides": "Guides",
-    "Tutorials": "Tutorials",
-    "Articles": "Articles",
-    "About": "About"
+    "docs": {
+      "articles-about-the-project": {
+        "title": "Articles about the project",
+        "sidebar_label": "Articles about the project"
+      },
+      "bundle-your-css": {
+        "title": "Bundle your CSS",
+        "sidebar_label": "Bundle your CSS"
+      },
+      "bundle-your-html": {
+        "title": "Bundle your HTML",
+        "sidebar_label": "Bundle your HTML"
+      },
+      "bundle-your-javascript": {
+        "title": "Bundle your JavaScript",
+        "sidebar_label": "Bundle your JavaScript"
+      },
+      "create-a-behavior": {
+        "title": "Create a Behavior",
+        "sidebar_label": "Create a Behavior"
+      },
+      "create-a-component": {
+        "title": "Create a Component",
+        "sidebar_label": "Create a Component"
+      },
+      "create-a-graph-system": {
+        "title": "Create a Graph system",
+        "sidebar_label": "Create a Graph system"
+      },
+      "create-a-npm-module": {
+        "title": "Create a NPM module",
+        "sidebar_label": "Create a NPM module"
+      },
+      "create-a-schema": {
+        "title": "Create a Schema",
+        "sidebar_label": "Create a Schema"
+      },
+      "create-a-system": {
+        "title": "Create a System",
+        "sidebar_label": "Create a System"
+      },
+      "create-a-type": {
+        "title": "Create a Type",
+        "sidebar_label": "Create a Type"
+      },
+      "create-a-website": {
+        "title": "Create a website",
+        "sidebar_label": "Create a website"
+      },
+      "create-an-extension": {
+        "title": "Create an extension",
+        "sidebar_label": "Create an extension"
+      },
+      "design-a-remote-client-system": {
+        "title": "Design a remote client system",
+        "sidebar_label": "Design a remote client system"
+      },
+      "design-a-remote-server-system": {
+        "title": "Design a remote server system",
+        "sidebar_label": "Design a remote server system"
+      },
+      "edit-a-model": {
+        "title": "Edit a model",
+        "sidebar_label": "Edit a model"
+      },
+      "export-a-system": {
+        "title": "Export a System",
+        "sidebar_label": "Export a System"
+      },
+      "extend-system-designer": {
+        "title": "Extend System Designer",
+        "sidebar_label": "Extend System Designer"
+      },
+      "generate-a-diagram": {
+        "title": "Generate a diagram",
+        "sidebar_label": "Generate a diagram"
+      },
+      "generate-a-model-from-a-json-file": {
+        "title": "Generate a model from a JSON file",
+        "sidebar_label": "Generate a model from a JSON file"
+      },
+      "import-a-system": {
+        "title": "Import a System",
+        "sidebar_label": "Import a System"
+      },
+      "installation": {
+        "title": "Installation",
+        "sidebar_label": "Installation"
+      },
+      "list-examples": {
+        "title": "List of Examples",
+        "sidebar_label": "List of Examples"
+      },
+      "listen-to-a-model-event": {
+        "title": "Listen to a model event",
+        "sidebar_label": "Listen to a model event"
+      },
+      "listen-to-a-repository-event": {
+        "title": "Listen to a repository event",
+        "sidebar_label": "Listen to a repository event"
+      },
+      "manage-extensions": {
+        "title": "Manage Extensions",
+        "sidebar_label": "Manage Extensions"
+      },
+      "privacy-policy": {
+        "title": "Privacy Policy",
+        "sidebar_label": "Privacy Policy"
+      },
+      "quick-start-videos": {
+        "title": "Quick Start in videos",
+        "sidebar_label": "Quick Start in videos"
+      },
+      "quick-start": {
+        "title": "Quick Start",
+        "sidebar_label": "Quick Start"
+      },
+      "run-your-system": {
+        "title": "Run your System",
+        "sidebar_label": "Run your System"
+      },
+      "send-messages-to-other-systems": {
+        "title": "Send messages to other systems",
+        "sidebar_label": "Send messages to other systems"
+      },
+      "send-messages": {
+        "title": "Send messages",
+        "sidebar_label": "Send messages"
+      },
+      "shortcuts": {
+        "title": "Shortcuts",
+        "sidebar_label": "Shortcuts"
+      },
+      "sync-your-system-with-github": {
+        "title": "Sync your systems with GitHub",
+        "sidebar_label": "Sync your systems with GitHub"
+      },
+      "test-a-server-side-application": {
+        "title": "Test a server-side application",
+        "sidebar_label": "Test a server-side application"
+      },
+      "what-is-design-first": {
+        "title": "What is Design First ?",
+        "sidebar_label": "What is Design First ?"
+      },
+      "what-is-system-designer": {
+        "title": "What is System Designer ?",
+        "sidebar_label": "What is System Designer ?"
+      },
+      "who-is-behind-system-designer": {
+        "title": "Who is behind System Designer ?",
+        "sidebar_label": "Who is behind System Designer ?"
+      }
+    },
+    "links": {},
+    "categories": {
+      "Introduction": "Introduction",
+      "Guides": "Guides",
+      "Tutorials": "Tutorials",
+      "Articles": "Articles",
+      "About": "About"
+    }
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
