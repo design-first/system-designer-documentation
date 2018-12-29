@@ -107,7 +107,7 @@ First, export your bundle by clicking on the *export* button. Choose **JSON** to
         <link rel="system" type="application/json" href="system2.json">
     </head>
     <body>
-        <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.0.2/dist/system-runtime.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.1.0/dist/system-runtime.min.js"></script>
     </body>
 </html>
 ```
