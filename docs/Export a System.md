@@ -30,7 +30,7 @@ You can also **install it in a client-side or server-side application**.
 >
 >**A system can be composed of another systems**. It means that all schemas, models, behaviors and components of many systems can be merged in one system. We call the **core** system, the system in which we will merge other systems at runtime. So when exporting, you can set a system as **Core system**.
 
-### Use this JSON on a client application
+### Use this JSON in a HTML file
 
 * create a valid HTML file
 * copy the JSON file you get from the export near your HTML file
@@ -107,9 +107,9 @@ node mysystem.js
 
 [System Runtime](https://system-runtime.github.io) will install the system and run it.
 
-### Use this JSON in an ES6 web application
+### Use this JSON in a web application
 
-* copy the JSON file you get from the export into your existing ES6 web application
+* copy the JSON file you get from the export into your existing web application
 * add [System Runtime](https://designfirst.io/systemruntime/) to your application:
 
 ```shell
@@ -122,7 +122,7 @@ npm i system-runtime --save
 import runtime from 'system-runtime';
 ```
 
-* require your system:
+* import your system:
 
 ```js
 import system from './mysystem';
