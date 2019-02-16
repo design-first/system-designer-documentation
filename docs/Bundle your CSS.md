@@ -116,7 +116,7 @@ Example:
 
 >**More details?**
 >
->See [in this guide](Export a System.md#export-to-json) to have more details on how to install your bundle client-side.
+>See [in this guide](export-a-system.html#export-to-json) to have more details on how to install your bundle client-side.
 
 >**You can bundle any CSS library**
 >

@@ -311,6 +311,8 @@ You will be able to:
 * load the page and
 * open the console of your browser to see the result.
 
+>You can also export your system into a JSON bundle and then import it in another web application.
+
 ## Use your system server side
 
 >**Version compatibility**
@@ -332,3 +334,5 @@ npm install system-runtime --save
 ```shell
 node StarWars.js
 ```
+
+>You can also export your system into a JSON bundle and then import it in another server application.

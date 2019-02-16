@@ -77,4 +77,4 @@ npm run build
 
 Your system will be then shown in the list of extensions.
 
->You can [create extensions inside System Designer](Create an extension.md).
+>You can [create extensions inside System Designer](create-an-extension.html).

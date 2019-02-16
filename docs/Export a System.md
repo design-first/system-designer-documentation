@@ -22,9 +22,13 @@ To export a system just click on the *export* button (the icon with a square and
 
 ## Export to JSON
 
-When exporting a system to a **JSON** file you will able to [import it in System Designer later or merge it to another system](Import a System.md).
+When exporting a system to a **JSON** file you will able to [import it in System Designer later or merge it to another system](import-a-system.html).
 
 You can also **install it in a client-side or server-side application**.
+
+>**What is the 'Core system' option?**
+>
+>**A system can be composed of another systems**. It means that all schemas, models, behaviors and components of many systems can be merged in one system. We call the **core** system, the system in which we will merge other systems at runtime. So when exporting, you can set a system as **Core system**.
 
 ### Use this JSON on a client application
 
@@ -64,6 +68,16 @@ Example:
 </html>
 ```
 
+>**How to change the log level?**
+>
+>By default the log level is at **warning** level, to change that, just add the property **level** on the script tag.
+
+Example:
+
+```html
+<script level="info" src="https://cdn.jsdelivr.net/npm/system-runtime@3.1.0/dist/system-runtime.min.js"></script>
+```
+
 ###  Use this JSON on a server application
 
 First, you need to install [System Runtime](https://designfirst.io/systemruntime/) server-side:
@@ -93,9 +107,35 @@ node mysystem.js
 
 [System Runtime](https://system-runtime.github.io) will install the system and run it.
 
->**What is the 'Core system' option?**
->
->**A system can be composed of another systems**. It means that all schemas, models, behaviors and components of many systems can be merged in one system. We call the **core** system, the system in which we will merge other systems at runtime. So when exporting, you can set a system as **Core system**.
+### Use this JSON in an ES6 web application
+
+* copy the JSON file you get from the export into your existing ES6 web application
+* add [System Runtime](https://designfirst.io/systemruntime/) to your application:
+
+```shell
+npm i system-runtime --save
+```
+
+*  import it in your application:
+
+```js
+import runtime from 'system-runtime';
+```
+
+* require your system:
+
+```js
+import system from './mysystem';
+```
+
+* then in your script, install your system:
+
+```js
+// set the level of log to see the logs
+runtime.require('logger').level('info');
+// install and run the system
+runtime.install(system);
+```
 
 ## Export to JavaScript
 
