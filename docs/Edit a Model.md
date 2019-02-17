@@ -175,7 +175,7 @@ For example, if you have added in the schema:
 {
   "_id": "m1229c1d58217741",
   "_name": "Jedi",
-  "father": "fullname"
+  "fullname": "method"
 }
 ```
 
@@ -185,7 +185,7 @@ A new configuration will be then added in the model:
 {
   "_id": "q17fc81a8f817e3d",
   "_name": "Jedi",
-  "father": {
+  "fullname": {
     "params": [
       {
         "name": "param",
@@ -199,7 +199,7 @@ A new configuration will be then added in the model:
 }
 ```
 
-This new method has one parameter of **any** type that is not mandatory and has **null** for default value.This method returns **any** result. You can then edit all this configuration.
+This new method has one parameter, **param**, of type **any** that is not mandatory and has **null** for default value. This method returns a result of type **any**. You can then edit all this configuration.
 
 ## Edit an event
 
@@ -233,7 +233,7 @@ A new configuration will be then added in the model:
 }
 ```
 
-This new event has one parameter of **any** type that is not mandatory and has **null** for default value. You can then edit all this configuration.
+This new event has one parameter, **param** of type **any** that is not mandatory and has **null** for default value. You can then edit all this configuration.
 
 >**Want to know more?**
 >
