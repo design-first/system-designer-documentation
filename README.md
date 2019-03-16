@@ -23,7 +23,7 @@ $ npm i
 $ npm run build
 ```
 
-Then go to `build/docs` folder and open `what-is-system-designer.html`.
+Then go to `build` folder and open `index.html`.
 
 ## Licenses
 
