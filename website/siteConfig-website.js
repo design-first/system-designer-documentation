@@ -17,6 +17,8 @@ const siteConfig = {
   footerIcon: 'img/logo.png',
   favicon: 'img/favicon.ico',
 
+  translationRecruitingLink: 'https://crowdin.com/project/system-designer',
+
   colors: {
     primaryColor: '#f8f8f8',
     secondaryColor: '#f8f8f8'
