@@ -7,20 +7,20 @@
 Clone the repository:
 
 ```sh
-$ git clone https://github.com/design-first/system-designer-documentation.git
+git clone https://github.com/design-first/system-designer-documentation.git
 ```
 
 Install the dependencies:
 
 ```sh
-$ cd website
-$ npm i
+cd website
+npm i
 ```
 
 ## Build the documentation
 
 ```sh
-$ npm run build
+npm run build
 ```
 
 Then go to `build` folder and open `index.html`.
