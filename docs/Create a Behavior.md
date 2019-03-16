@@ -20,7 +20,7 @@ To create a behavior in System Designer:
 * then click on *Create* button,
 * a new behavior is now created and appears in the *Behaviors* list:
 
-![Image Alt](../img/4c505d0-behavior.png)
+![Image Alt](../../img/4c505d0-behavior.png)
 
 >**What is a state?**
 >
@@ -36,7 +36,7 @@ To create a behavior in System Designer:
 * an editor will open the content of the behavior, 
 * you can implement now your behavior:
 
-![Image Alt](../img/dd2fe2b-behavior-edit.png)
+![Image Alt](../../img/dd2fe2b-behavior-edit.png)
 
 ## Use a property
 
@@ -274,7 +274,7 @@ this.require('db').collections().Person.remove({
 
 First, you need to activate *advanced mode*. To do so, go to *System Designer* configuration panel and click on **Advanced mode** checkbox. Then you a new tab called **Behavior** will appear when you edit a behavior. Click on this tab to override some internal values for the current behavior.
 
-![Image Alt](../img/5ea2863-behavior-edit2.png)
+![Image Alt](../../img/5ea2863-behavior-edit2.png)
 
 You can for example
 

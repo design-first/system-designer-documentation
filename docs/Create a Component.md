@@ -16,7 +16,7 @@ To create a component in System Designer:
 * click on the '+' button on the left toolbar,
 * a new component is now created and appears in the *Components* list:
 
-![Image Alt](../img/c3f2dac-component.png)
+![Image Alt](../../img/c3f2dac-component.png)
 
 >**What are the values set by default?**
 >
@@ -28,7 +28,7 @@ To create a component in System Designer:
 * an editor will open the content of the component,
 * you can now edit your component:
 
-![Image Alt](../img/f76f809-component-edit.png)
+![Image Alt](../../img/f76f809-component-edit.png)
 
 ## Component creation with code
 

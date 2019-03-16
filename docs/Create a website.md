@@ -39,7 +39,7 @@ You can use *System Designer* to create websites and edit them live.
 - add a comment,
 - click on **Add page**,
 
-![Image Alt](../img/fed4136-config.png)
+![Image Alt](../../img/fed4136-config.png)
 
 - click on *Execute* button,
 - your system will be pushed in your *GitHub* repository with a HTML file that will include your system and

@@ -64,7 +64,7 @@ function start() {
 * select **Listen to components collection events** from the proposed systems,
 * click on the **Compose** button,
 
-![Image Alt](../img/96f0d35-listen-collection-event.png)
+![Image Alt](../../img/96f0d35-listen-collection-event.png)
 
 This system has now been composed in your system.
 * on **Behaviors** tab, click on **_Database** model (on the right panel under *Models*),
@@ -88,6 +88,6 @@ function update(event) {
 
 You will see a message telling that the property of the component has changed.
 
-![Image Alt](../img/5b2c3bf-db-listen.png)
+![Image Alt](../../img/5b2c3bf-db-listen.png)
 
 >A system makes a lot of update on the repository when running, so for performance reason always filter on a specific collection.

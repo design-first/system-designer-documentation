@@ -29,9 +29,9 @@ const siteConfig = {
   },
 
   scripts: [
-    '../js/links-website.js',
-    '../js/clipboard.js',
-    '../js/copy.js'
+    '../../js/links-website.js',
+    '../../js/clipboard.js',
+    '../../js/copy.js'
   ],
 
   onPageNav: 'separate',

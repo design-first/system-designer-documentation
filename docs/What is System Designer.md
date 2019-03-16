@@ -16,7 +16,7 @@ A system:
 * is composed by components and
 * reacts to events with actions that we call behaviors.
 
-![Image Alt](../img/0237548-system.png)
+![Image Alt](../../img/0237548-system.png)
 
 ## Design your system with ease
 

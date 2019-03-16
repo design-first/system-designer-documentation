@@ -17,7 +17,7 @@ To create a schema in System Designer:
 * then click on *Create* button,
 * a new schema is now created and appears in the *Schema* list:
 
-![Image Alt](../img/8d678d7-schema-create.png)
+![Image Alt](../../img/8d678d7-schema-create.png)
 
 ## Schema edition
 
@@ -25,12 +25,12 @@ To create a schema in System Designer:
 * an editor will open the content of the schema,
 * you can now edit your schema:
 
-![Image Alt](../img/df8a98c-schema-edit.png)
+![Image Alt](../../img/df8a98c-schema-edit.png)
 
 * go back to the **Schemas** tab and
 * your modifications have been updated.
 
-![Image Alt](../img/962d821-schema-prop.png)
+![Image Alt](../../img/962d821-schema-prop.png)
 
 ## Define inheritance
 

@@ -14,7 +14,7 @@ To edit a model in System Designer:
 * click on the **Models** tab and
 * you will see all the generated models.
 
-![Image Alt](../img/cd61e9c-model.png)
+![Image Alt](../../img/cd61e9c-model.png)
 
 ## Model edition
 
@@ -22,7 +22,7 @@ To edit a model in System Designer:
 * an editor will open the content of the model,
 * you can now edit its properties by updating its configuration: 
 
-![Image Alt](../img/c51f2db-model-edit.png)
+![Image Alt](../../img/c51f2db-model-edit.png)
 
 ## Edit a configuration
 

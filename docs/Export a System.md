@@ -220,4 +220,4 @@ If you choose **[Graphviz](http://graphviz.org)** type of exportation, your syst
 
 >You can preview the diagram of an external DOT file by dropping it in the Class Diagram viewer.
 
-![Image Alt](../img/52c0985-class-diagram-viewer.png)
+![Image Alt](../../img/52c0985-class-diagram-viewer.png)

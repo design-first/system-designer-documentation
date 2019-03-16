@@ -14,13 +14,13 @@ To create a type in System Designer:
 * click on the '+' button on the left toolbar,
 * type the *name* of your type, 
 
-![Image Alt](../img/cUcboJ04RNmxM9wh7XRw_type.png)
+![Image Alt](../../img/cUcboJ04RNmxM9wh7XRw_type.png)
 
 * click on *Enumeration* checkbox if you want to create an enumeration,
 * then click on *Create* button,
 * a new type is now created and appears in the *Types* list:
 
-![Image Alt](../img/9ab26f0-type.png)
+![Image Alt](../../img/9ab26f0-type.png)
 
 * this new type can be then used in your model.
 
@@ -30,7 +30,7 @@ To create a type in System Designer:
 * an editor will open the content of the type, 
 * you can now edit the type:
 
-![Image Alt](../img/40a37d4-type-edit.png)
+![Image Alt](../../img/40a37d4-type-edit.png)
 
 You can then use this new type on a model.
 

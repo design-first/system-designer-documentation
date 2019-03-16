@@ -17,7 +17,7 @@ After creating your system:
 * select **Send messages threw a channel** from the proposed systems,
 * click on the **Compose** button,
 
-![Image Alt](../img/7930644-send-messages.png)
+![Image Alt](../../img/7930644-send-messages.png)
 
 This system has now been composed in your system.
 * on **Schemas** tab, click on **_Channel** model (on the right panel under *Schemas*),

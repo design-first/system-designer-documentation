@@ -19,7 +19,7 @@ In this tutorial we will show how to create an extension in System Designer.
 * click on **from the library** radio button,
 * select **Create an extension** from the proposed systems,
 
-![Image Alt](../img/2862ba5-import.png)
+![Image Alt](../../img/2862ba5-import.png)
 
 * click on the **Import** button. A system is created,
 
@@ -27,16 +27,16 @@ In this tutorial we will show how to create an extension in System Designer.
 
 * Click on *Components* tab and select *ToolbarItem*,
 
-![Image Alt](../img/a28d8e4-toolbar.png)
+![Image Alt](../../img/a28d8e4-toolbar.png)
 
 * A toolbar item is already there in the system example. Click on *toolbar-item-template.html* link (next to html property),
 * You navigate to the *HTML* components and you can see the template used for showing the toolbar,
 
-![Image Alt](../img/7082ea1-html.png)
+![Image Alt](../../img/7082ea1-html.png)
 
 * Click on it if you wan edit the html of the toolbar item,
 
-![Image Alt](../img/b3b308a-html-code.png)
+![Image Alt](../../img/b3b308a-html-code.png)
 
 ## Create an action when clicking on the toolbar item
 
@@ -44,18 +44,18 @@ In this tutorial we will show how to create an extension in System Designer.
 * click on *ToolbarItem* on the right,
 * and then click *toolbar-item-template* on the right,
 
-![Image Alt](../img/d0193e5-click.png)
+![Image Alt](../../img/d0193e5-click.png)
 
 * a list of behaviors is shown, and you can see that a *click* behavior exist,
 * click on it to edit it and update the code,
 
-![Image Alt](../img/336d79e-behavior.png)
+![Image Alt](../../img/336d79e-behavior.png)
 
 ## Test your extension
 
 To test your extension, it is very easy. You just have to click on the run button and your extension will be installed in System Designer.
 
-![Image Alt](../img/8f12ab7-run.png)
+![Image Alt](../../img/8f12ab7-run.png)
 
 ## Debug your extension on macOS and Windows 10
 
@@ -64,7 +64,7 @@ To test your extension, it is very easy. You just have to click on the run butto
 
 The [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/) is opened and you can debug your extension.
 
-![Image Alt](../img/f0d8235-extension-debug.png)
+![Image Alt](../../img/f0d8235-extension-debug.png)
 
 ## Add your extension
 
@@ -73,6 +73,6 @@ The [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/)
 * near *From your systems* click on your extension,
 * click on the *Add* button,
 
-![Image Alt](../img/435ffe9-ext-man.png)
+![Image Alt](../../img/435ffe9-ext-man.png)
 
 * your extension is then been added into System Designer. You will be able to remove it from the same dialog.

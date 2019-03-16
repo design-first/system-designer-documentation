@@ -31,7 +31,7 @@ function start() {
 }
 ```
 
-![Image Alt](../img/28fcebf-node-app.png)
+![Image Alt](../../img/28fcebf-node-app.png)
 
 ## Test your system
 

@@ -30,7 +30,7 @@ function start() {
 * click on the **Logs** tab and
 * all the logs will be shown there.
 
-![Image Alt](../img/2cfa521-debug.png)
+![Image Alt](../../img/2cfa521-debug.png)
 
 >**What are these informations shown at the bottom?**
 >
@@ -56,7 +56,7 @@ When running your application:
 
 The [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/) is opened and you can debug your system.
 
-![Image Alt](../img/ac7ce0e-debugger.png)
+![Image Alt](../../img/ac7ce0e-debugger.png)
 
 >**Use System Runtime APIS**
 >

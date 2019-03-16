@@ -18,7 +18,7 @@ sidebar_label: What is Design First ?
 
 ## Design First architecture
 
-![Image Alt](../img/3f8a1ad-archi.png)
+![Image Alt](../../img/3f8a1ad-archi.png)
 
 * System Designer **designs and bundles your system** into a [JSON](http://json.org) file and
 * [System Runtime](https://designfirst.io/systemruntime/) **installs and runs this bundle** server and client side.

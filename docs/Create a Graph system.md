@@ -17,7 +17,7 @@ In this tutorial we will show how to create a Graph.
 * click on **from the library** radio button,
 * select **Create a Graph system** from the proposed systems,
 
-![Image Alt](../img/create-a-graph-1.png)
+![Image Alt](../../img/create-a-graph-1.png)
 
 * click on the **Import** button. A system is created.
 
@@ -67,7 +67,7 @@ Then click on *Models* tab and edit **Book** model:
 }
 ```
 
-![Image Alt](../img/create-a-graph-2.png)
+![Image Alt](../../img/create-a-graph-2.png)
 
 * Click on *Schemas* tab and create a **Person** schema that inherit from **Nodes**:
 
@@ -107,7 +107,7 @@ Then click on *Models* tab and edit **Person** model:
 }
 ```
 
-![Image Alt](../img/create-a-graph-3.png)
+![Image Alt](../../img/create-a-graph-3.png)
 
 ## Create the relationships models
 
@@ -165,7 +165,7 @@ Then click on *Models* tab and edit **HAS_READ** model:
 
 You will need to override **incoming** and **outgoing** links to specify the good type for the links (default type was **Nodes**).
 
-![Image Alt](../img/create-a-graph-4.png)
+![Image Alt](../../img/create-a-graph-4.png)
 
 * Click on *Schemas* tab and create a **IS_FRIEND_WITH** schema that inherits from **Relationships**:
 
@@ -213,7 +213,7 @@ Then click on *Models* tab and edit **IS_FRIEND_WITH** model:
 
 You will need to override **incoming** and **outgoing** links to specify the good type for the links (default type was **Nodes**).
 
-![Image Alt](../img/create-a-graph-5.png)
+![Image Alt](../../img/create-a-graph-5.png)
 
 ## Create the nodes components
 
@@ -227,7 +227,7 @@ You will need to override **incoming** and **outgoing** links to specify the goo
 }
 ```
 
-![Image Alt](../img/create-a-graph-6.png)
+![Image Alt](../../img/create-a-graph-6.png)
 
 Then create 2 **Person** components that contain these codes:
 
@@ -247,7 +247,7 @@ Then create 2 **Person** components that contain these codes:
 }
 ```
 
-![Image Alt](../img/create-a-graph-7.png)
+![Image Alt](../../img/create-a-graph-7.png)
 
 ## Create the relationships components
 
@@ -262,7 +262,7 @@ Then create 2 **Person** components that contain these codes:
 }
 ```
 
-![Image Alt](../img/create-a-graph-8.png)
+![Image Alt](../../img/create-a-graph-8.png)
 
 
 Then create 2 **HAS_READ** components that contain these codes:
@@ -287,7 +287,7 @@ Then create 2 **HAS_READ** components that contain these codes:
 }
 ```
 
-![Image Alt](../img/create-a-graph-9.png)
+![Image Alt](../../img/create-a-graph-9.png)
 
 ## View the Graph model
 
@@ -297,7 +297,7 @@ Then a new window will open and you will see the different diagrams of your syst
 
 * click on *Graph diagram*,
 
-![Image Alt](../img/create-a-graph-10.png)
+![Image Alt](../../img/create-a-graph-10.png)
 
 You see now the complete Graph of your system.
 
@@ -305,7 +305,7 @@ You see now the complete Graph of your system.
 
 * click on *Component diagram*,
 
-![Image Alt](../img/create-a-graph-11.png)
+![Image Alt](../../img/create-a-graph-11.png)
 
 You see now the relations between all your nodes components.
 

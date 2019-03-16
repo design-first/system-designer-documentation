@@ -24,7 +24,7 @@ You can save your systems in a **[GitHub](https://github.com)** repository to sh
 - in *GitHub repository* set the name of your repository (example: myname/myrepo ) and
 - click on *Save* button.
 
-![Image Alt](../img/9ab67dd-config.png)
+![Image Alt](../../img/9ab67dd-config.png)
 
 ## Get systems from GitHub
 
@@ -33,7 +33,7 @@ You can save your systems in a **[GitHub](https://github.com)** repository to sh
 - click on *Execute* button and
 - all the systems in your *Github* repository will be added into *System Designer*.
 
-![Image Alt](../img/86143e8-sync.png)
+![Image Alt](../../img/86143e8-sync.png)
 
 ## Send a system to GitHub
 
@@ -42,7 +42,7 @@ You can save your systems in a **[GitHub](https://github.com)** repository to sh
 - click on *Execute* button and
 - your current system will be pushed in your *GitHub* repository.
 
-![Image Alt](../img/5dde98a-push.png)
+![Image Alt](../../img/5dde98a-push.png)
 
 >**What are the options on a push command?**
 >

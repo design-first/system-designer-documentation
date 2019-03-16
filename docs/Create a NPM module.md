@@ -21,7 +21,7 @@ You can easily create a [npm](https://www.npmjs.com) module with *System Designe
 
 - open the configuration panel,
 
-![Image Alt](../img/39e1078-config.png)
+![Image Alt](../../img/39e1078-config.png)
 
 - in *Github token* paste your key,
 - in *Github repository* set the name of your repository (example: myname/myrepo ) and
@@ -33,7 +33,7 @@ You can easily create a [npm](https://www.npmjs.com) module with *System Designe
 - add a comment,
 - click on **Add a package.json file**,
 
-![Image Alt](../img/10f4418-push.png)
+![Image Alt](../../img/10f4418-push.png)
 
 - click on *Execute* button and
 - your system will be pushed in your *Github* repository with a *package.json*.

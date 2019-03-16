@@ -15,7 +15,7 @@ A system:
 - is composed by **components** and
 - reacts to events with **actions** that we call **behaviors**.
 
-![Image Alt](../img/6565096-UuhkIYCaRY6IpUFVFY7Q_system.png)
+![Image Alt](../../img/6565096-UuhkIYCaRY6IpUFVFY7Q_system.png)
 
 ## What is the system that we will create ?
 
@@ -44,7 +44,7 @@ Now let's create this system.
 * click on **Create** button,
 * a new system is now created and appears in the **Systems** list.
 
-![Image Alt](../img/3cdba3a-quick-start-1.png)
+![Image Alt](../../img/3cdba3a-quick-start-1.png)
 
 ## Create a schema
 
@@ -58,7 +58,7 @@ Now let's create this system.
 * click on **Create** button,
 * a new schema is now created and appears in the **Schemas** list,
 
-![Image Alt](../img/9b6e109-quick-start-2.png)
+![Image Alt](../../img/9b6e109-quick-start-2.png)
 
 * click on it,
 * update the schema with this: 
@@ -79,7 +79,7 @@ Now let's create this system.
 
 * save (by clicking on the first icon of the toolbar).
 
-![Image Alt](../img/1e2f47c-quick-start-3.png)
+![Image Alt](../../img/1e2f47c-quick-start-3.png)
 
 >**What can be defined in a schema ?**
 >- Use **property** for defining a property. 
@@ -100,7 +100,7 @@ Now let's create this system.
 
 * click on the **Models** tab,
 
-![Image Alt](../img/8f2592d-quick-start-5.png)
+![Image Alt](../../img/8f2592d-quick-start-5.png)
 
 >**What are the values set by default ?**
 >
@@ -142,7 +142,7 @@ Now let's create this system.
 
 * save.
 
-![Image Alt](../img/e913221-quick-start-32.png)
+![Image Alt](../../img/e913221-quick-start-32.png)
 
 >**What has be done ?**
 >
@@ -161,11 +161,11 @@ Now let's create this system.
 * click on the **Models** tab,
 * click on **fullName** method,
 
-![Image Alt](../img/38eaacb-quick-start-4.png)
+![Image Alt](../../img/38eaacb-quick-start-4.png)
 
 * you navigate to the **Behaviors** tab,
 
-![Image Alt](../img/03c931f-quick-start-41.png)
+![Image Alt](../../img/03c931f-quick-start-41.png)
 
 * click on the **fullName** element,
 * update the action with this:
@@ -183,7 +183,7 @@ function fullName() {
 
 * save.
 
-![Image Alt](../img/f08400c-quick-start-6.png)
+![Image Alt](../../img/f08400c-quick-start-6.png)
 
 ## Create components
 
@@ -195,7 +195,7 @@ function fullName() {
 * click on the **+** button on the left toolbar,
 * a new component is now created and appears in the **Components** list,
 
-![Image Alt](../img/3209d4b-quick-start-7.png)
+![Image Alt](../../img/3209d4b-quick-start-7.png)
 
 >**What are the informations set by default ?**
 >
@@ -215,7 +215,7 @@ function fullName() {
 
 * save,
 
-![Image Alt](../img/d464b3d-quick-start-8.png)
+![Image Alt](../../img/d464b3d-quick-start-8.png)
 
 * click again on the **+** button on the left toolbar,
 * a new component is now created and appears in the **Components** list,
@@ -233,7 +233,7 @@ function fullName() {
 
 * save.
 
-![Image Alt](../img/1825219-quick-start-9.png)
+![Image Alt](../../img/1825219-quick-start-9.png)
 
 ## Add code on the start method of the system
 
@@ -243,7 +243,7 @@ function fullName() {
 * click on *StarWars* on the right,
 * click on the element who has got a **start** method,
 
-![Image Alt](../img/03a88cd-quick-start-10.png)
+![Image Alt](../../img/03a88cd-quick-start-10.png)
 
 * update the action with this:
 
@@ -265,7 +265,7 @@ function start() {
 
 * save.
 
-![Image Alt](../img/e9f6708-quick-start-11.png)
+![Image Alt](../../img/e9f6708-quick-start-11.png)
 
 >**What is a logger component ?**
 >
@@ -276,7 +276,7 @@ function start() {
 * click on the run button on the left and
 * click on the **Logs** tab and you will see the result.
 
-![Image Alt](../img/cde4bc9-quick-start-12.png)
+![Image Alt](../../img/cde4bc9-quick-start-12.png)
 
 ## View the class diagram of your system
 
@@ -286,11 +286,11 @@ function start() {
 
 * just click on the corresponding button in the toolbar (the 5th button from the top)
 
-![Image Alt](../img/d17f1f8-system-designer-12a.png)
+![Image Alt](../../img/d17f1f8-system-designer-12a.png)
 
 Then a new window will open and you will see the class diagram of your system.
 
-![Image Alt](../img/a411ffe-system-designer-12b.png)
+![Image Alt](../../img/a411ffe-system-designer-12b.png)
 
 You will be able to:
 * zoom in/out ,

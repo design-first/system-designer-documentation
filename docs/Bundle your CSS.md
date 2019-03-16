@@ -23,14 +23,14 @@ First create a schema that:
 * has a **source** property and
 * a **render** method.
 
-![Image Alt](../img/vAtEpbhUR26p9ySPsjGH_css-1.png)
+![Image Alt](../../img/vAtEpbhUR26p9ySPsjGH_css-1.png)
 
 Then edit the model:
 
 * change the type of **source** in from *any* to *css* and
 * remove all  of *render* method and rename parameter *param* to *id*.
 
-![Image Alt](../img/92216bc-css-2.png)
+![Image Alt](../../img/92216bc-css-2.png)
 
 ## Code the behavior of render method
 
@@ -45,13 +45,13 @@ function render() {
 }
 ```
 
-![Image Alt](../img/94a5826-css-3.png)
+![Image Alt](../../img/94a5826-css-3.png)
 
 ## Create a CSS component
 
 Now create a *CSS* component from the interface:
 
-![Image Alt](../img/85828be-css-31.png)
+![Image Alt](../../img/85828be-css-31.png)
 
 Then edit the component by clicking on it. You will notice that a **source** tab appears. It will allow you to add your css in your component. Put the css you want. In this example we set:
 
@@ -61,7 +61,7 @@ body {
 }
 ```
 
-![Image Alt](../img/838b677-css-4.png)
+![Image Alt](../../img/838b677-css-4.png)
 
 >**What happens?**
 >
@@ -80,13 +80,13 @@ function start() {
 }
 ```
 
-![Image Alt](../img/d990ce7-css-5.png)
+![Image Alt](../../img/d990ce7-css-5.png)
 
 ## Run your system
 
 Now you can run your system and see the result.
 
-![Image Alt](../img/5v6Spcu9SzaNaA7KC7le_css-6.png)
+![Image Alt](../../img/5v6Spcu9SzaNaA7KC7le_css-6.png)
 
 ## Install your bundle in another system
 

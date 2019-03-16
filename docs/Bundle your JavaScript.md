@@ -23,14 +23,14 @@ First create a schema that:
 * has a **source** property and
 * a **render** method.
 
-![Image Alt](../img/6f6886b-js-1.png)
+![Image Alt](../../img/6f6886b-js-1.png)
 
 Then edit the model:
 
 * change the type of **source** in from *any* to *javascript* and
 * remove all properties of *render* method. This method will have no parameter and no return value.
 
-![Image Alt](../img/4d9886c-js-2.png)
+![Image Alt](../../img/4d9886c-js-2.png)
 
 ## Code the behavior of render method
 
@@ -45,13 +45,13 @@ function render() {
 }
 ```
 
-![Image Alt](../img/bb4f4ce-js-3.png)
+![Image Alt](../../img/bb4f4ce-js-3.png)
 
 ## Create a JS component
 
 Now create a *JS* component from the interface.
 
-![Image Alt](../img/203748c-js-31.png)
+![Image Alt](../../img/203748c-js-31.png)
 
 Then edit the component. You will notice that a **source** tab appears. It will allow you to add your javascript in your component. Put the JavaScript you want. In this example we set:
 
@@ -59,7 +59,7 @@ Then edit the component. You will notice that a **source** tab appears. It will 
 alert('Hello World');
 ```
 
-![Image Alt](../img/d00e12f-js-4.png)
+![Image Alt](../../img/d00e12f-js-4.png)
 
 >**What happens?**
 >
@@ -78,13 +78,13 @@ function start() {
 }
 ```
 
-![Image Alt](../img/dc8cd08-JS-5.png)
+![Image Alt](../../img/dc8cd08-JS-5.png)
 
 ## Run your bundle
 
 Now you can run your system and see the result.
 
-![Image Alt](../img/s1sJYegaRnKxYdqaEDcx_JS-6.png)
+![Image Alt](../../img/s1sJYegaRnKxYdqaEDcx_JS-6.png)
 
 ## Install your bundle in another system
 
