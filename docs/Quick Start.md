@@ -206,7 +206,7 @@ function fullName() {
 
 ```json
 {
-  "_id": "vador",
+  "_id": "vader",
   "father": "",
   "firstName": "Darth",
   "lastName": "Vader"
@@ -225,7 +225,7 @@ function fullName() {
 ```json
 {
   "_id": "luke",
-  "father": "vador",
+  "father": "vader",
   "firstName": "Luke",
   "lastName": "Skywalker"
 }

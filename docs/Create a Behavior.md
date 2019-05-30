@@ -84,10 +84,10 @@ You can directly use it in your code:
 this.father();
 
 // get a component
-const vador = this.require('vador');
+const vader = this.require('vader');
 
 // set the link value with the component
-this.father(vador);
+this.father(vader);
 ```
 
 ## Use a collection
@@ -122,13 +122,13 @@ this.children(0);
 this.children([]);
 
 // get a component
-const vador = this.require('vador');
+const vader = this.require('vader');
 
 // add the component at the first place of the collection
-this.children(0, vador);
+this.children(0, vader);
 
 // add the component at the last place of the collection
-this.children().push(vador);
+this.children().push(vader);
 ```
 
 ## Use a method
