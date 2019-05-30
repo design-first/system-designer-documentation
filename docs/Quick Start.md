@@ -208,8 +208,8 @@ function fullName() {
 {
   "_id": "vador",
   "father": "",
-  "firstName": "Dark",
-  "lastName": "Vador"
+  "firstName": "Darth",
+  "lastName": "Vader"
 }
 ```
 
