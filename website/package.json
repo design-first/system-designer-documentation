@@ -1,4 +1,10 @@
 {
+  "description": "System Designer Documentation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/design-first/system-designer-documentation.git"
+  },
+  "license": "Apache-2.0",
   "scripts": {
     "examples": "docusaurus-examples",
     "start": "docusaurus-start",
@@ -11,6 +17,6 @@
     "crowdin-download": "crowdin --config ../crowdin.yaml download -b master"
   },
   "devDependencies": {
-    "docusaurus": "1.7.2"
+    "docusaurus": "1.10.0"
   }
 }
