@@ -24,16 +24,16 @@ We want to create **a system that will show the name of the father of Luke Skywa
 Now let's define a bit our system with the informations we know about the system (if you have watched *Star Wars*):
 
 * Luke Skywalker is a **Jedi**,
-* Luke Skywalker **father** is Dark Vador and
-* Dark Vador is also a **Jedi**.
+* Luke Skywalker **father** is Darth Vader and
+* Darth Vader is also a **Jedi**.
 
 From that we see that:
 
 * we have one model: **Jedi**,
 * a Jedi has a least for properties **firstName** and **lastName**,
 * a Jedi has a link **father** to another Jedi,
-* we have 2 Jedis: **Luke Skywalker** and **Dark Vador** and
-* Luke Skywalker has for father Dark Vador.
+* we have 2 Jedis: **Luke Skywalker** and **Darth Vader** and
+* Luke Skywalker has for father Darth Vader.
 
 Now let's create this system.
 
