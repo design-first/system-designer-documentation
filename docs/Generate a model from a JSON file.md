@@ -73,7 +73,7 @@ A new component is created.
 
 * save it,
 
-## Use APIs to navigate threw your component
+## Use APIs to navigate through your component
 
 * click on the *Behaviors* tab,
 * click on your system name under *System* on the right,

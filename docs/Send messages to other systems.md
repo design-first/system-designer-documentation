@@ -14,7 +14,7 @@ After creating your system:
 * click on the **import** button on the left toolbar,
 * a dialog is shown,
 * click on **from the library** radio button,
-* select **Send messages threw a channel** from the proposed systems,
+* select **Send messages through a channel** from the proposed systems,
 * click on the **Compose** button,
 
 ![Image Alt](../../img/7930644-send-messages.png)
