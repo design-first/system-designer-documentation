@@ -6,7 +6,7 @@ sidebar_label: Export a System
 
 >**Version compatibility**
 >
->This feature is only available on the **Windows 10**, **macOS** and **HTML5** versions of *System Designer*.
+>This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
 
 You can export your system in many formats.
 
@@ -43,7 +43,7 @@ You can also **install it in a client-side or server-side application**.
 * add this *script* tag to install [System Runtime](https://designfirst.io/systemruntime/):
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/system-runtime@3.1.1/dist/system-runtime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.0/dist/system-runtime.min.js"></script>
 ```
 
 >**What will happen?**
@@ -63,7 +63,7 @@ Example:
     <link rel="system" type="application/json" href="mysystem.json">
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.1.1/dist/system-runtime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.0/dist/system-runtime.min.js"></script>
   </body>
 </html>
 ```
@@ -75,7 +75,7 @@ Example:
 Example:
 
 ```html
-<script level="info" src="https://cdn.jsdelivr.net/npm/system-runtime@3.1.1/dist/system-runtime.min.js"></script>
+<script level="info" src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.0/dist/system-runtime.min.js"></script>
 ```
 
 ###  Use this JSON on a server application
@@ -105,7 +105,7 @@ Now execute your file:
 node mysystem.js
 ``` 
 
-[System Runtime](https://system-runtime.github.io) will install the system and run it.
+[System Runtime](https://designfirst.io/systemruntime/) will install the system and run it.
 
 ### Use this JSON in a web application
 
@@ -147,7 +147,7 @@ When exporting a system to a **JavaScript** file you will able to run it client-
 * add this *script* tag to install [System Runtime](https://designfirst.io/systemruntime/):
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/system-runtime@3.1.1/dist/system-runtime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.0/dist/system-runtime.min.js"></script>
 ```
 
 * copy the JavaScript file you get from the export near your HTML file
@@ -168,7 +168,7 @@ Example:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.1.1/dist/system-runtime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.0/dist/system-runtime.min.js"></script>
     <script src="mysytem.js"></script>
   </body>
 </html>

@@ -6,7 +6,7 @@ sidebar_label: Generate a diagram
 
 >**version compatibility**
 >
->This feature is only available on the **Windows 10**, **macOS** and **HTML5** versions of *System Designer*.
+>This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
 
 You can generate a Class diagram, Component diagram of a Graph (if your system is a graph system) of your entire system and export it in *SVG*.
 
@@ -14,7 +14,7 @@ You can generate a Class diagram, Component diagram of a Graph (if your system i
 
 To generate a css diagram:
 * just click on the corresponding button in the toolbar (the 5th button from the top)
-* or type *Command* + *D* (on macOS) / *Control* + *D* (on Windows 10).
+* or type *Command* + *D* (on macOS) / *Control* + *D* (on Windows).
 
 ![Image Alt](../../img/d21695c-class-diagram-open.png)
 

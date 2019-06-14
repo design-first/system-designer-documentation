@@ -282,7 +282,7 @@ function start() {
 
 >**Version compatibility**
 >
->This feature is only available on the **Windows 10**, **macOS** and **HTML5** versions of *System Designer*.
+>This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
 
 * just click on the corresponding button in the toolbar (the 5th button from the top)
 
@@ -303,7 +303,7 @@ You will be able to:
 
 >**Version compatibility**
 >
->This feature is only available on the **Windows 10**, **macOS** and **HTML5** versions of *System Designer*.
+>This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
 
 * click on the export button,
 * select **HTML**,
@@ -317,7 +317,7 @@ You will be able to:
 
 >**Version compatibility**
 >
->This feature is only available on the **Windows 10**, **macOS** and **HTML5** versions of *System Designer*.
+>This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
 
 * click on the export button,
 * select **Node.js**,

@@ -6,7 +6,7 @@ sidebar_label: Design a remote server system
 
 >**Version compatibility**
 >
->This feature is only available on the **Windows 10**, **macOS** and **HTML5** versions of *System Designer*.
+>This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
 
 With System Designer you can import a system of a running app on a remote server. You can then update the system from System Designer. All modifications to the system will be then send to the running system.
 

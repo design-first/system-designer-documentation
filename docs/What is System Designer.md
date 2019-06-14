@@ -40,19 +40,19 @@ In fact, System Designer acts as an ODM (Object-Document Mapper) to manage your 
 
 ## Run your system
 
-You can run your system directly from System Designer and then export it to HTML, JSON, a Node.js module or a [Graphiz](http://graphviz.org) file (* macOS and HTML5 version only).
+You can run your system directly from System Designer and then export it to HTML, JSON, a Node.js module or a [Graphiz](http://graphviz.org) file (* Windows, macOS, Linux and HTML5 version only).
 
 Because you have defined a model for your system, a [Dynamic Type Check](https://en.wikipedia.org/wiki/Type_system#DYNAMIC) is done on every action of your system. All warnings are send and shown in System Designer.
 
 ## Debug your system
 
-System Designer can load the model of any system that runs on the browser or on [Node.js](https://nodejs.org/en/)  (* macOS and HTML5 version only). You can see the schemas, models, components and methods of the running system and you can edit them.
+System Designer can load the model of any system that runs on the browser or on [Node.js](https://nodejs.org/en/)  (* Windows, macOS, Linux and HTML5 version only). You can see the schemas, models, components and methods of the running system and you can edit them.
 
 All modifications to the model done inside System Designer will be send to the running system. There is no need to reload to see your modifications.
 
 ## Design on the go
 
-System Designer can be used on  [Windows 10](https://www.microsoft.com/store/apps/9p05jrx99h87), [macOS](https://itunes.apple.com/us/app/system-designer/id1102494854?l=fr&ls=1&mt=12), [iOS](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=1132983280&mt=8), [Android](https://play.google.com/store/apps/details?id=com.ecarriou.systemdesignerios) or [any browsers](https://system-designer.github.io/designer/). You can also install it in your project: System Designer requires no backend to work, it is a full web application.
+System Designer can be used on Windows, macOS, Linux, iOS, Android or any browsers. You can also install it in your project: System Designer requires no backend to work, it is a full web application.
 
 System Designer has a [Github](https://github.com) module to synchronize your work between all these apps. You can begin your design on your Mac and then continue it on your iPad.
 

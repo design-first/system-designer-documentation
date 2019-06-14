@@ -69,7 +69,7 @@ note: the purpose of the example is to show how easily you can create Web Compon
 
 * create a schema, example *Book*, make it inherit from *SyncComponent*, add properties,
 * create *Book* components and
-* run the application (* System Designer macOS and Windows 10 versions only).
+* run the application (* System Designer macOS, Windows and Linux versions only).
 
 Now you can send GET/POST/PUT/DELETE/PATCH requests to http://127.0.0.1:8080/rest/Book.
 

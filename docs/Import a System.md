@@ -6,7 +6,7 @@ sidebar_label: Import a System
 
 >**Version compatibility**
 >
->This feature is only available on the **Windows 10**, **macOS** and **HTML5** versions of *System Designer*.
+>This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
 
 In *System Designer*, you can import systems you have exported (as **JSON** file).
 

@@ -6,7 +6,7 @@ sidebar_label: Create a Graph system
 
 >**version compatibility**
 >
->This feature is only available on the **Windows 10**, **macOS** and **HTML5** versions of *System Designer*.
+>This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
 
 In this tutorial we will show how to create a Graph.
 

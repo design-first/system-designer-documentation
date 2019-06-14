@@ -6,7 +6,7 @@ sidebar_label: Test a server-side application
 
 >**Version Compatibility**
 >
->This feature is only available on the **Windows 10** and **macOS** version of *System Designer*.
+>This feature is only available on the **Windows**, **macOS** and **Linux** version of *System Designer*.
 
 This tutorial will show you how to run a simple **[Node.js](https://nodejs.org/en/)** application with *System Designer*.
 

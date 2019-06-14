@@ -57,7 +57,7 @@ To test your extension, it is very easy. You just have to click on the run butto
 
 ![Image Alt](../../img/8f12ab7-run.png)
 
-## Debug your extension on macOS and Windows 10
+## Debug your extension on macOS, Windows or Linux
 
 * go to the menu,
 * click on **Menu > Toggle Developper Tools**.

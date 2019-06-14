@@ -6,7 +6,7 @@ sidebar_label: Design a remote client system
 
 >**Version compatibility**
 >
->This feature is only available on the **Windows 10**, **macOS** and **HTML5** versions of *System Designer*.
+>This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
 
 With System Designer you can import a system of a running system on a remote server. You can then update the system from System Designer. All modifications to the system will be then send to the running app.
 
@@ -15,7 +15,7 @@ With System Designer you can import a system of a running system on a remote ser
 To enable *design* mode on your application, just add [mode-admin extension](https://github.com/design-first/system-runtime/tree/master/extensions) in the HTML of your page that contains your system:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/system-runtime@3.1.1/extensions/mode-admin.json" type="application/json" rel="system">
+<link href="https://cdn.jsdelivr.net/npm/system-runtime@3.2.0/extensions/mode-admin.json" type="application/json" rel="system">
 ```
 
 ## Set the url of the page

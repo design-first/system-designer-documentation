@@ -14,7 +14,7 @@ To run a system:
 
 >**You can test Node.js APIs**
 >
->If your systems uses native **[Node.js](https://nodejs.org/en/)** apis, you can run your system with *System Designer* (* Windows 10 and macOS versions only).
+>If your systems uses native **[Node.js](https://nodejs.org/en/)** apis, you can run your system with *System Designer* (* Windows, macOS and Linux versions only).
 
 ## Debug your system
 
@@ -48,7 +48,7 @@ function start() {
 
 >**Compatibility version**
 >
->This feature is only available on the **Windows 10** and **macOS** versions of *System Designer*.
+>This feature is only available on the **Windows**, **macOS** and **Linux** versions of *System Designer*.
 
 When running your application:
 * go to the menu,
