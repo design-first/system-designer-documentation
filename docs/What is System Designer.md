@@ -40,13 +40,13 @@ In fact, System Designer acts as an ODM (Object-Document Mapper) to manage your 
 
 ## Run your system
 
-You can run your system directly from System Designer and then export it to HTML, JSON, a Node.js module or a [Graphiz](http://graphviz.org) file (* Windows, macOS, Linux and HTML5 version only).
+You can run your system directly from System Designer and then export it to HTML, JSON, a Node.js module or a [Graphiz](http://graphviz.org) file (* Windows, macOS, Linux and PWA versions only).
 
 Because you have defined a model for your system, a [Dynamic Type Check](https://en.wikipedia.org/wiki/Type_system#DYNAMIC) is done on every action of your system. All warnings are send and shown in System Designer.
 
 ## Debug your system
 
-System Designer can load the model of any system that runs on the browser or on [Node.js](https://nodejs.org/en/)  (* Windows, macOS, Linux and HTML5 version only). You can see the schemas, models, components and methods of the running system and you can edit them.
+System Designer can load the model of any system that runs on the browser or on [Node.js](https://nodejs.org/en/)  (* Windows, macOS, Linux and PWA versions only). You can see the schemas, models, components and methods of the running system and you can edit them.
 
 All modifications to the model done inside System Designer will be send to the running system. There is no need to reload to see your modifications.
 
