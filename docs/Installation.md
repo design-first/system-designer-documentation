@@ -9,12 +9,12 @@ sidebar_label: Installation
 For the web app version optimized for desktop browsers:
 
 * go to [https://designfirst.io/designer/](https://designfirst.io/designer/)
-* If your browser is compatible, you will see a dialog to install the application localy.
+* If your browser is compatible, you will see a dialog to install the application locally.
 
 For the web app version optimized for mobile browsers:
 
 * go to [https://designfirst.io/design/](https://designfirst.io/design/)
-* If your browser is compatible, you will see a dialog to install the application localy.
+* If your browser is compatible, you will see a dialog to install the application locally.
 
 >The PWA version works offline (i.e. without an internet connection).
 
