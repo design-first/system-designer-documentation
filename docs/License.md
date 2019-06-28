@@ -6,7 +6,7 @@ sidebar_label: License
 
 >System Designer is distributed under Apache License 2.0.
 
-## License
+## Copyright
 
 Copyright 2019 Erwan Carriou
 
