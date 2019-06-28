@@ -11,6 +11,6 @@ In this video, you will see in 2 minutes:
 * how to edit a behavior and
 * how to start your system.
 
-[![Image Alt](../../img/caps-video.png)](../videos/SystemDesigner.mp4)
+[![Image Alt](../../img/caps-video.png)](../../videos/SystemDesigner.mp4)
 
 >To see more more videos, go to [System Designer Vimeo Channel](https://vimeo.com/channels/1080596).
