@@ -10,7 +10,7 @@ sidebar_label: Design a remote client system
 
 With System Designer you can import a system of a running system on a remote server. You can then update the system from System Designer. All modifications to the system will be then send to the running app.
 
->Enable design mode on your running system
+## Enable design mode on your running system
 
 To enable *design* mode on your application, just add [mode-admin extension](https://github.com/design-first/system-runtime/tree/master/extensions) in the HTML of your page that contains your system:
 

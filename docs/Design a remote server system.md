@@ -12,7 +12,7 @@ With System Designer you can import a system of a running app on a remote server
 
 ## Enable design mode on your running system
 
-To enable *design* mode on your application, just install the [mode-admin-server extension](https://github.com/design-first/system-runtime/tree/master/extensions) in your system and start it:
+To enable *design* mode on your application, just install the [mode-admin-server extension](https://github.com/design-first/system-runtime/tree/master/extensions) in your server script and start it:
 
 ```js
 // require system runtime
