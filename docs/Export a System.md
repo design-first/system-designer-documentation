@@ -18,7 +18,7 @@ To export a system just click on the *export* button (the icon with a square and
 - a **JavaScript** file,
 - a **HTML** file,
 - a **Node.js** file
-- a **[DOT](https://en.wikipedia.org/wiki/DOT_%28graph_description_language%29)** file for [Graphviz](http://graphviz.org) softwares.
+- a **[DOT](https://en.wikipedia.org/wiki/DOT_%28graph_description_language%29)** file for [Graphviz](https://graphviz.org) softwares.
 
 ## Export to JSON
 
@@ -43,7 +43,7 @@ You can also **install it in a client-side or server-side application**.
 * add this *script* tag to install [System Runtime](https://designfirst.io/systemruntime/):
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.1/dist/system-runtime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/system-runtime@3.3.0/dist/system-runtime.min.js"></script>
 ```
 
 >**What will happen?**
@@ -63,7 +63,7 @@ Example:
     <link rel="system" type="application/json" href="mysystem.json">
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.1/dist/system-runtime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.3.0/dist/system-runtime.min.js"></script>
   </body>
 </html>
 ```
@@ -75,7 +75,7 @@ Example:
 Example:
 
 ```html
-<script level="info" src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.1/dist/system-runtime.min.js"></script>
+<script level="info" src="https://cdn.jsdelivr.net/npm/system-runtime@3.3.0/dist/system-runtime.min.js"></script>
 ```
 
 ###  Use this JSON on a server application
@@ -147,7 +147,7 @@ When exporting a system to a **JavaScript** file you will able to run it client-
 * add this *script* tag to install [System Runtime](https://designfirst.io/systemruntime/):
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.1/dist/system-runtime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/system-runtime@3.3.0/dist/system-runtime.min.js"></script>
 ```
 
 * copy the JavaScript file you get from the export near your HTML file
@@ -168,7 +168,7 @@ Example:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.1/dist/system-runtime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.3.0/dist/system-runtime.min.js"></script>
     <script src="mysytem.js"></script>
   </body>
 </html>
@@ -216,7 +216,7 @@ node mysystem.js
 
 ## Export to Graphviz
 
-If you choose **[Graphviz](http://graphviz.org)** type of exportation, your system will be packaged in a [DOT](https://en.wikipedia.org/wiki/DOT_%28graph_description_language%29) file. You will be able then to edit it and open it with all diagram tools that can open this kind of file.
+If you choose **[Graphviz](https://graphviz.org)** type of exportation, your system will be packaged in a [DOT](https://en.wikipedia.org/wiki/DOT_%28graph_description_language%29) file. You will be able then to edit it and open it with all diagram tools that can open this kind of file.
 
 >You can preview the diagram of an external DOT file by dropping it in the Class Diagram viewer.
 

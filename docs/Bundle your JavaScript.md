@@ -107,7 +107,7 @@ First, export your bundle by clicking on the *export* button. Choose **JSON** to
         <link rel="system" type="application/json" href="system2.json">
     </head>
     <body>
-        <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.1/dist/system-runtime.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.3.0/dist/system-runtime.min.js"></script>
     </body>
 </html>
 ```
@@ -133,4 +133,4 @@ runtime.install('system2.json');
 
 >**You can bundle any JavaScript library**
 >
->System Designer allows you to easily import JavaScript libraries like [React](http://facebook.github.io/react/) in your system.
+>System Designer allows you to easily import JavaScript libraries like [React](https://facebook.github.io/react/) in your system.

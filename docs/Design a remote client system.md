@@ -15,7 +15,7 @@ With System Designer you can import a system of a running system on a remote ser
 To enable *design* mode on your application, just add [mode-admin extension](https://github.com/design-first/system-runtime/tree/master/extensions) in the HTML of your page that contains your system:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/system-runtime@3.2.1/extensions/mode-admin.json" type="application/json" rel="system">
+<link href="https://cdn.jsdelivr.net/npm/system-runtime@3.3.0/extensions/mode-admin.json" type="application/json" rel="system">
 ```
 
 ## Set the url of the page

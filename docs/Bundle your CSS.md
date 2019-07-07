@@ -109,7 +109,7 @@ Example:
         <link rel="system" type="application/json" href="system2.json">
     </head>
     <body>
-        <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.2.1/dist/system-runtime.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/system-runtime@3.3.0/dist/system-runtime.min.js"></script>
     </body>
 </html>
 ```
@@ -120,4 +120,4 @@ Example:
 
 >**You can bundle any CSS library**
 >
->System Designer allows you to easily create reusable components from css libraries like [Bootstrap](http://getbootstrap.com) (we do that in the *dvd-collection* system that you can test in our set of system library).
+>System Designer allows you to easily create reusable components from css libraries like [Bootstrap](https://getbootstrap.com) (we do that in the *dvd-collection* system that you can test in our set of system library).

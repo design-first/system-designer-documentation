@@ -40,7 +40,7 @@ In fact, System Designer acts as an ODM (Object-Document Mapper) to manage your 
 
 ## Run your system
 
-You can run your system directly from System Designer and then export it to HTML, JSON, a Node.js module or a [Graphiz](http://graphviz.org) file (* Windows, macOS, Linux and PWA versions only).
+You can run your system directly from System Designer and then export it to HTML, JSON, a Node.js module or a [Graphiz](https://graphviz.org) file (* Windows, macOS, Linux and PWA versions only).
 
 Because you have defined a model for your system, a [Dynamic Type Check](https://en.wikipedia.org/wiki/Type_system#DYNAMIC) is done on every action of your system. All warnings are send and shown in System Designer.
 

@@ -59,7 +59,7 @@ Once server started, go to [http://localhost:8080/](http://localhost:8080/).
 
 ## Build the desktop versions from the source code
 
-To build System Designer for [Electron](http://electron.atom.io):
+To build System Designer for [Electron](https://electron.atom.io):
 
 ```sh
 npm run electron
@@ -82,7 +82,7 @@ npm run linux
 
 ## Build the mobile versions from the source code
 
-To build System Designer for [Cordova](http://cordova.apache.org):
+To build System Designer for [Cordova](https://cordova.apache.org):
 
 ```sh
 npm run cordova
