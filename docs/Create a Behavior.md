@@ -179,7 +179,7 @@ By default, your component inherits from *_Component* model, so you can use:
 - **this.require(id : string) : _Component**: to require a component,
 - **this.init(document : object)**: to do something when the component is created,
 - **this.destroy()**: to do something when the component is destroyed and
-- **this.error(e : object)**: to do something when the component generated an error.
+- **this.error(e : object)**: to do something when the component has generated an error.
 
 ```js
 // require a component
