@@ -175,7 +175,8 @@ this.changed();
 
 By default, your component inherits from *_Component* model, so you can use:
 
-- **this.id()**: to get the id of the component and
+- **this.id()**: to get the id of the component,
+- **this.destroy()**: to destroy a component (you can override this method for your needs) and
 - **this.require(id : string) : _Component**: to require a component.
 
 ```js
@@ -203,7 +204,7 @@ You can require the  *logger* component to log messages. You can use:
 
 You can also specify the level of your logs:
 
-- **this.require('logger').level(level: ['debug', 'info', 'warn', 'error'])**: set a level for your logs.
+- **this.require('logger').level(level: ['none', 'debug', 'info', 'warn', 'error'])**: set a level for your logs.
 
 ```js
 // log an information message

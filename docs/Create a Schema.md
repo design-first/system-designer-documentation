@@ -54,7 +54,7 @@ To define a property, add a key that has got a **property** value.
 {
   "_id": "m1da931573d19acc",
   "_name": "Jedi",
-  "name":"property"
+  "name": "property"
 }
 ```
 
@@ -66,7 +66,7 @@ To define a link between models, add a key that has got a **link** value. A link
 {
   "_id": "m1da931573d19acc",
   "_name": "Jedi",
-  "father":"link"
+  "father": "link"
 }
 ```
 
@@ -81,7 +81,7 @@ To define a collection, add a key that has got a **collection** value. A collect
 {
   "_id": "m1da931573d19acc",
   "_name": "Jedi",
-  "children":"collection"
+  "children": "collection"
 }
 ```
 
@@ -93,7 +93,7 @@ To define a method, add a key that has got a **method** value.
 {
   "_id": "m1da931573d19acc",
   "_name": "Jedi",
-  "fullName":"method"
+  "fullName": "method"
 }
 ```
 
@@ -105,7 +105,7 @@ To define an event, add a key that has got an **event** value. An event is a asy
 {
   "_id": "m1da931573d19acc",
   "_name": "Jedi",
-  "statusChanged":"event"
+  "statusChanged": "event"
 }
 ```
 
