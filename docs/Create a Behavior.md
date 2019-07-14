@@ -204,7 +204,7 @@ You can require the  *logger* component to log messages. You can use:
 
 You can also specify the level of your logs:
 
-- **this.require('logger').level(level: ['none', 'debug', 'info', 'warn', 'error'])**: set a level for your logs.
+- **this.require('logger').level(level: ['off', 'debug', 'info', 'warn', 'error'])**: set a level for your logs.
 
 ```js
 // log an information message
