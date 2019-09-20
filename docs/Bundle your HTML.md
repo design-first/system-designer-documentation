@@ -112,7 +112,7 @@ Example:
         <link rel="system" type="application/json" href="system2.json">
     </head>
     <body>
-        <script src="https://cdn.jsdelivr.net/npm/system-runtime@4.0.0/dist/system-runtime.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/system-runtime/dist/system-runtime.min.js"></script>
     </body>
 </html>
 ```
