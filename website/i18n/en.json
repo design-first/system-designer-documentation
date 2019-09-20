@@ -93,6 +93,10 @@
         "title": "Installation",
         "sidebar_label": "Installation"
       },
+      "license": {
+        "title": "License",
+        "sidebar_label": "License"
+      },
       "list-examples": {
         "title": "List of Examples",
         "sidebar_label": "List of Examples"
@@ -158,7 +162,11 @@
         "sidebar_label": "Who is behind System Designer ?"
       }
     },
-    "links": {},
+    "links": {
+      "DOCUMENTATION": "DOCUMENTATION",
+      "SUPPORT": "SUPPORT",
+      "GITHUB": "GITHUB"
+    },
     "categories": {
       "Introduction": "Introduction",
       "Guides": "Guides",
