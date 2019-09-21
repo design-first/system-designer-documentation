@@ -189,3 +189,9 @@ blockquote {
     display: block!important;
   }
 }
+
+/* links */
+
+.onPageNav .toc-headings>li>a.active  {
+  color: #717171!important;
+}
