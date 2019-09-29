@@ -4,10 +4,6 @@ title: Import a System
 sidebar_label: Import a System
 ---
 
->**Version compatibility**
->
->This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
-
 In *System Designer*, you can import systems you have exported (as **JSON** file).
 
 ## System importation
@@ -29,3 +25,7 @@ When clicking on the 'Import' button, your system will be then imported.
 ![Image Alt](../../img/8df64e2-drag.png)
 
 When clicking on the 'Import' button, your system will be then imported.
+
+>**Version compatibility**
+>
+>This feature is only available on the **Windows**, **macOS**, **Linux** and **PWA** versions of *System Designer*.
