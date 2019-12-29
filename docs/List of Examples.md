@@ -64,39 +64,3 @@ note: the purpose of the example is to show how easily you can create Web Compon
 [See the example](https://designfirst.io/examples/web-components.html)
 
 ![Image Alt](../../img/95ab82a-web-component.png)
-
-## Create a REST server
-
-* create a schema, example *Book*, make it inherit from *SyncComponent*, add properties,
-* create *Book* components and
-* run the application (* System Designer macOS, Windows and Linux versions only).
-
-Now you can send GET/POST/PUT/DELETE/PATCH requests to http://127.0.0.1:8080/rest/Book.
-
-note: because the running application and System Designer are synchronized, if you open the *Components* tab when performing the requests, you will see directly the modification on the panel (i.e. if you delete a component with a DELETE request, it will be removed from System Designer)
-
-[Download the example](https://raw.githubusercontent.com/design-first/system-designer/master/examples/rest-server.json)
-
-## Create a REST client
-
-* create a schema, example *Book*, make it inherit from *SyncComponent*, add properties
-* create *Book* components and
-* run the application.
-
-Now all modications to *Book* components, will send POST/DELETE/PATCH requests to the server.
-
-note: you use this system with the *REST server* example:
-
-* import *REST server*
-* create the same schema as in *REST Client*, make it inherit from *SyncComponent*, add properties,
-* export *REST server* example in *node.js* format,
-* export *REST client* example in *HTML* format,
-* copy the generated HTML next to your *REST server* example,
-* run the server and
-* go to http://127.0.0.1:8080/REST-Client.html. 
-
-All modifications to the synchonized components will be send to the server.
-
-warning: this system uses fetch API, so it does not work on Interner Explorer.
-
-[Download the example](https://raw.githubusercontent.com/design-first/system-designer/master/examples/rest-client.json)
