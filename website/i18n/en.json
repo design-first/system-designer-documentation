@@ -162,11 +162,7 @@
         "sidebar_label": "Who is behind System Designer ?"
       }
     },
-    "links": {
-      "DOCUMENTATION": "DOCUMENTATION",
-      "SUPPORT": "SUPPORT",
-      "GITHUB": "GITHUB"
-    },
+    "links": {},
     "categories": {
       "Introduction": "Introduction",
       "Guides": "Guides",
