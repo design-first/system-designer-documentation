@@ -271,12 +271,14 @@ function start() {
 >
 >A **logger** component is available to log messages in System Designer.
 
-## Test the system
+## Run the system
 
-* click on the run button on the left and
-* click on the **Logs** tab and you will see the result.
+* click on the run button on the left  (the 2nd button from the top) and
+* click on the **Logs** tab and you will see the result of the execution of your system.
 
 ![Image Alt](../../img/cde4bc9-quick-start-12.png)
+
+>You will also get there the traces of your system that is executed. You will have a log everytime a component is created, updated or deleted at runtime. 
 
 ## View the class diagram of your system
 
