@@ -311,7 +311,7 @@ You see now the relations between all your nodes components.
 
 ## Make requests on your graph
 
-To query your graph system you will need to use the NoSQL repository APIs.For example, you can add on the **start** method of your system:
+To query your graph system you will need to use the NoSQL data store APIs.For example, you can add on the **start** method of your system:
 
 ```js
 function start() {

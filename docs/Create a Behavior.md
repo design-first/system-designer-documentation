@@ -213,7 +213,7 @@ this.require('logger').info('this is an message');
 
 ## Use db component APIS
 
-All the components are stored at runtime in a **repository** that you can access with [System Runtime APIs](https://designfirst.io/systemruntime/documentation/docs/manage-your-components.html). You can use them in your behaviors by requiring the **db** component.
+All the components are stored at runtime in a **data store** that you can access with [System Runtime APIs](https://designfirst.io/systemruntime/documentation/docs/manage-your-components.html). You can use them in your behaviors by requiring the **db** component.
 
 Let's imagine you have created a *Person* schema and that you want to get the number of person component created:
 

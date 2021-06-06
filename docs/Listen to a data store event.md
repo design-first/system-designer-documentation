@@ -1,18 +1,18 @@
 ---
-id: listen-to-a-repository-event
-title: Listen to a repository event
-sidebar_label: Listen to a repository event
+id: listen-to-a-data-store-event
+title: Listen to a data store event
+sidebar_label: Listen to a data store event
 ---
 
-In this tutorial we will show how to listen to a components repository event.
+In this tutorial we will show how to listen to a components data store event.
 
->**Component repository**
+>**Component data store**
 >
->All your components are stored at runtime in a **repository** that you can access with [System Runtime APIs](https://designfirst.io/systemruntime/documentation/docs/manage-your-components.html).
+>All your components are stored at runtime in a **data store** that you can access with [System Runtime APIs](https://designfirst.io/systemruntime/documentation/docs/manage-your-components.html).
 >It sends:
->- an **update** event when a component has been updated in the repository,
->- an **insert** event when a component has been created in the repository and
->- a **remove** event when a component has been deleted from the repository.
+>- an **update** event when a component has been updated in the data store,
+>- an **insert** event when a component has been created in the data store and
+>- a **remove** event when a component has been deleted from the data store.
 
 ## Define your system
 
@@ -56,7 +56,7 @@ function start() {
 }
 ```
 
-## Listen to an update event of the repository
+## Listen to an update event of the data store
 
 * click on the import button on the left toolbar,
 * a dialog is shown,
@@ -90,4 +90,4 @@ You will see a message telling that the property of the component has changed.
 
 ![Image Alt](../../img/5b2c3bf-db-listen.png)
 
->A system makes a lot of update on the repository when running, so for performance reason always filter on a specific collection.
+>A system makes a lot of update on the data store when running, so for performance reason always filter on a specific collection.

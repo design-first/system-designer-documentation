@@ -34,7 +34,7 @@
       "create-a-npm-module",
       "create-a-website",
       "listen-to-a-model-event",
-      "listen-to-a-repository-event",
+      "listen-to-a-data-store-event",
       "send-messages",
       "send-messages-to-other-systems",
       "create-an-extension",

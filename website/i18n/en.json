@@ -101,13 +101,13 @@
         "title": "List of Examples",
         "sidebar_label": "List of Examples"
       },
+      "listen-to-a-data-store-event": {
+        "title": "Listen to a data store event",
+        "sidebar_label": "Listen to a data store event"
+      },
       "listen-to-a-model-event": {
         "title": "Listen to a model event",
         "sidebar_label": "Listen to a model event"
-      },
-      "listen-to-a-repository-event": {
-        "title": "Listen to a repository event",
-        "sidebar_label": "Listen to a repository event"
       },
       "manage-extensions": {
         "title": "Manage Extensions",
