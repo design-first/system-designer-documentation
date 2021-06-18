@@ -150,16 +150,16 @@
         "sidebar_label": "Test a server-side application"
       },
       "what-is-design-first": {
-        "title": "What is Design First ?",
-        "sidebar_label": "What is Design First ?"
+        "title": "What is Design First?",
+        "sidebar_label": "What is Design First?"
       },
       "what-is-system-designer": {
-        "title": "What is System Designer ?",
-        "sidebar_label": "What is System Designer ?"
+        "title": "What is System Designer?",
+        "sidebar_label": "What is System Designer?"
       },
       "who-is-behind-system-designer": {
-        "title": "Who is behind System Designer ?",
-        "sidebar_label": "Who is behind System Designer ?"
+        "title": "Who is behind System Designer?",
+        "sidebar_label": "Who is behind System Designer?"
       }
     },
     "links": {},

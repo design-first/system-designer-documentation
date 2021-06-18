@@ -1,7 +1,7 @@
 ---
 id: what-is-design-first
-title: What is Design First ?
-sidebar_label: What is Design First ?
+title: What is Design First?
+sidebar_label: What is Design First?
 ---
 
 [Design First](https://github.com/design-first) is a set of tools to help developers to design before coding. It contains:

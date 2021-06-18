@@ -1,7 +1,7 @@
 ---
 id: who-is-behind-system-designer
-title: Who is behind System Designer ?
-sidebar_label: Who is behind System Designer ?
+title: Who is behind System Designer?
+sidebar_label: Who is behind System Designer?
 ---
 
 ## About me

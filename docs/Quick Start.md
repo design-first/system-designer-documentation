@@ -6,9 +6,9 @@ sidebar_label: Quick Start
 
 In this quick start, we will create a system, test it and run it client and server side.
 
-## What is a system ?
+## What is a system?
 
-With System Designer you create in fact **a system** and not an application. But what is a system ?
+With System Designer you create in fact **a system** and not an application. But what is a system?
 
 A system:
 - is defined by a **model**,
@@ -273,10 +273,16 @@ function start() {
 
 ## Run the system
 
-* click on the run button on the left  (the 2nd button from the top) and
-* click on the **Logs** tab and you will see the result of the execution of your system.
+* click on the run button on the left (the 2nd button from the top)
+* A new window informing you that your system is running will open
 
-![Image Alt](../../img/cde4bc9-quick-start-12.png)
+![Image Alt](../../img/quick-start-12-run.png)
+
+>Your system is in fact running by a runtime, [System Runtime](https://designfirst.io/systemruntime/), in this new window. All the messages and logs from your system will be then send to System Designer.
+
+* click on the **Logs** tab to see all the logs send by the runtime
+
+![Image Alt](../../img/quick-start-12-logs.png)
 
 >You will also get there the traces of your system that is executed. You will have a log everytime a component is created, updated or deleted at runtime. 
 

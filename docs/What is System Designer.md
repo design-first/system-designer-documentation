@@ -1,14 +1,14 @@
 ---
 id: what-is-system-designer
-title: What is System Designer ?
-sidebar_label: What is System Designer ?
+title: What is System Designer?
+sidebar_label: What is System Designer?
 ---
 
 **No matter the frameworks you use and the code you write, the most important is the model that you define to create your system**. 
 
 System Designer helps you to design this model and to generate the classes and components to build your system.
 
-## What is a system ?
+## What is a system?
 
 A system:
 
