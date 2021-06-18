@@ -1,6 +1,6 @@
 const siteConfig = {
   title: 'System Designer',
-  tagline: 'An IDE for designing systems',
+  tagline: 'A low-code development platform for creating systems',
   url: 'https://designfirst.io',
   baseUrl: '../../',
 
