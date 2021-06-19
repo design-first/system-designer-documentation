@@ -273,14 +273,14 @@ function start() {
 
 ## Run the system
 
-* click on the run button on the left (the 2nd button from the top)
-* A new window informing you that your system is running will open
+* click on the run button on the left (the 2nd button from the top),
+* a new window informing you that your system is running will open and
 
 ![Image Alt](../../img/quick-start-12-run.png)
 
 >Your system is in fact running by a runtime, [System Runtime](https://designfirst.io/systemruntime/), in this new window. All the messages and logs from your system will be then send to System Designer.
 
-* click on the **Logs** tab to see all the logs send by the runtime
+* click on the **Logs** tab to see all the logs send by the runtime.
 
 ![Image Alt](../../img/quick-start-12-logs.png)
 
