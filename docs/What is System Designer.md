@@ -22,7 +22,7 @@ A system:
 
 If you look at the different JavaScript frameworks on the market, you will notice that they all have their own way to define a model, generally only with code.
 
-System Designer uses [UML](http://www.uml.org), a standard, to define your model. So you probably already how to design in System Designer even if you have never run it.
+System Designer uses [UML](http://www.uml.org), a standard, to define your model. So you probably already know to design in System Designer even if you have never run it.
 
 The definition of the model is stored on a JSON format called [MSON](https://designfirst.io/systemruntime/documentation/docs/design-your-model.html#defining-your-model). With [MSON](https://designfirst.io/systemruntime/documentation/docs/design-your-model.html#defining-your-model) you can define types, classes, one to one / one to many relationships and multi inheritance between classes.
 
@@ -40,7 +40,7 @@ In fact, System Designer acts as an ODM (Object-Document Mapper) to manage your 
 
 ## Run your system
 
-You can run your system directly from System Designer and then export it to HTML, JSON, a Node.js module or a [Graphiz](https://graphviz.org) file (* Windows, macOS, Linux and PWA versions only).
+You can run your system directly from System Designer and then export it to HTML, JSON, a Node.js module or a [Graphviz](https://graphviz.org) file (* Windows, macOS, Linux and PWA versions only).
 
 Because you have defined a model for your system, a [Dynamic Type Check](https://en.wikipedia.org/wiki/Type_system#DYNAMIC) is done on every action of your system. All warnings are send and shown in System Designer.
 
