@@ -19,12 +19,12 @@ First create a schema that:
 
 ```json
 {
-  "_id": "b13d3510f7c15b1c",
-  "_name": "Person",
-  "_inherit": [
-    "_Component"
-  ],
-  "name": "property"
+	"_id": "bd8493b0-6e56-4ac3-b008-d5d0b2cf5a71",
+	"_name": "Person",
+	"_inherit": [
+		"_Component"
+	],
+	"name": "property"
 }
 ```
 
@@ -59,7 +59,7 @@ function start() {
 * a dialog is shown,
 * select **name** and click on the **Create** button,
 
-![Image Alt](../../img/bf91027-create_behavior.png)
+![Image Alt](../../img/listen-to-a-model-event-create.png)
 
 * a behavior is now created,
 * click on it to edit it,
@@ -80,4 +80,4 @@ function name(value) {
 
 You will see a message telling that the property of the component has changed.
 
-![Image Alt](../../img/69734b4-listen.png)
+![Image Alt](../../img/listen-to-a-model-event-run.png)

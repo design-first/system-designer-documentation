@@ -17,10 +17,13 @@ After creating a system:
 * select **Send messages through a channel** from the proposed systems,
 * click on the **Compose** button,
 
-![Image Alt](../../img/743f357-system-designer-channel-1.png)
+![Image Alt](../../img/send-messages-1.png)
 
 This system has now been composed in your system.
-* on **Schemas** tab, click on **_Channel** model (on the right panel under *Schemas*),
+* on **Schemas** tab, click on **_Channel** schema (on the right panel under *Schemas*),
+
+![Image Alt](../../img/send-messages-2.png)
+
 * click on **_Channel** schema to edit it,
 * add **somethingHappened** event:
 
@@ -36,7 +39,10 @@ This system has now been composed in your system.
 }
 ```
 
-* on **Models** tab, click on **_Channel** model (on the right panel under *Schemas*),
+* on **Models** tab, click on **_Channel** model (on the right panel under *Models*),
+
+![Image Alt](../../img/send-messages-3.png)
+
 * click on **_Channel** model,
 * edit with this code:
 
@@ -76,7 +82,7 @@ Now we will create the listener to that message:
 *  select *somethingHappened* from the list,
 * click on the *Create* button
 
-![Image Alt](../../img/7091872-system-designer-channel-2.png)
+![Image Alt](../../img/send-messages-4.png)
 
 * click on the **somethingHappened** behavior,
 * add this code:
@@ -90,9 +96,11 @@ function somethingHappened(param) {
 }
 ```
 
+![Image Alt](../../img/send-messages-5.png)
+
 ## Send the message
 
-* on *Behavior* tab, select your system  (on the right panel under *System*),
+* on *Behavior* tab, select your system (on the right panel under *System*),
 * click on *start* behavior,
 * add this code:
 
@@ -100,10 +108,12 @@ function somethingHappened(param) {
 function start() { 
   this.require('channel').somethingHappened('my message');  
 }
-````
+```
+
+![Image Alt](../../img/send-messages-6.png)
 
 * run your system
 
-![Image Alt](../../img/ef64888-system-designer-channel-3.png)
+![Image Alt](../../img/send-messages-7.png)
 
 * you will see a message on the bottom right of System Designer and a new log on the *Logs* tab.

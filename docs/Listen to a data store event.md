@@ -23,7 +23,7 @@ First create a schema that:
 
 ```json
 {
-  "_id": "b13d3510f7c15b1c",
+  "_id": "eb74b2c8-a1b7-4a08-aa6e-eaf029e2e3f2",
   "_name": "Person",
   "_inherit": [
     "_Component"
@@ -64,10 +64,13 @@ function start() {
 * select **Listen to components collection events** from the proposed systems,
 * click on the **Compose** button,
 
-![Image Alt](../../img/96f0d35-listen-collection-event.png)
+![Image Alt](../../img/listen-to-a-data-store-event-dialog.png)
 
 This system has now been composed in your system.
 * on **Behaviors** tab, click on **_Database** model (on the right panel under *Models*),
+
+![Image Alt](../../img/listen-to-a-data-store-event-_database.png)
+
 * click on the **update** behavior to edit it,
 * add this code:
 
@@ -88,6 +91,6 @@ function update(event) {
 
 You will see a message telling that the property of the component has changed.
 
-![Image Alt](../../img/5b2c3bf-db-listen.png)
+![Image Alt](../../img/listen-to-a-data-store-event-run.png)
 
 >A system makes a lot of update on the data store when running, so for performance reason always filter on a specific collection.

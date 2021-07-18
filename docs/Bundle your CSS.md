@@ -28,7 +28,7 @@ First create a schema that:
 Then edit the model:
 
 * change the type of **source** in from *any* to *css* and
-* remove all  of *render* method and rename parameter *param* to *id*.
+* empty *params* array of *render* method.
 
 ![Image Alt](../../img/bundle-your-css-2.png)
 

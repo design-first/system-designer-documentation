@@ -103,11 +103,11 @@ In this example we have defined *address* type that is composed of a *city*, *zi
 
 ```json
 {
-  "_id":"edb7ddc1-d0ef-4477-b1ee-c8f309cd6991",
+  "_id": "edb7ddc1-d0ef-4477-b1ee-c8f309cd6991",
   "location": {
-    "city":"paris",
-    "zip": 75015,
-    "country: "France"
+    "city": "paris",
+    "zip": "75015",
+    "country": "France"
   }
 }
 ```

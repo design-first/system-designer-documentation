@@ -23,14 +23,14 @@ First create a schema that:
 * has a **source** property and
 * a **render** method.
 
-![Image Alt](../../img/6f6886b-js-1.png)
+![Image Alt](../../img/bundle-your-js-1.png)
 
 Then edit the model:
 
 * change the type of **source** in from *any* to *javascript* and
-* remove all properties of *render* method. This method will have no parameter and no return value.
+* empty *params* array of *render* method.
 
-![Image Alt](../../img/4d9886c-js-2.png)
+![Image Alt](../../img/bundle-your-js-2.png)
 
 ## Code the behavior of render method
 
@@ -45,13 +45,13 @@ function render() {
 }
 ```
 
-![Image Alt](../../img/bb4f4ce-js-3.png)
+![Image Alt](../../img/bundle-your-js-3.png)
 
 ## Create a JS component
 
 Now create a *JS* component from the interface.
 
-![Image Alt](../../img/203748c-js-31.png)
+![Image Alt](../../img/bundle-your-js-4.png)
 
 Then edit the component. You will notice that a **source** tab appears. It will allow you to add your javascript in your component. Put the JavaScript you want. In this example we set:
 
@@ -59,13 +59,17 @@ Then edit the component. You will notice that a **source** tab appears. It will 
 alert('Hello World');
 ```
 
-![Image Alt](../../img/d00e12f-js-4.png)
+![Image Alt](../../img/bundle-your-js-5.png)
 
 >**What happens?**
 >
 >Because in the model you tell that **source** property has for type *javascript*. System Designer let you edit this property as JavaScript. It means that System Designer will check that the JavaScript you write is correct.
 
-##Render your component in your application
+Then click on the **Component** tab to edit the *__id_* property value of the component:
+
+![Image Alt](../../img/bundle-your-js-6.png)
+
+## Render your component in your application
 
 Edit the **start** method of your system and:
 
@@ -74,17 +78,17 @@ Edit the **start** method of your system and:
 
 ```js
 function start() { 
-  this.require('1c7cf1853a18f50').render();
+  this.require('alertComponent').render();
 }
 ```
 
-![Image Alt](../../img/dc8cd08-JS-5.png)
+![Image Alt](../../img/bundle-your-js-7.png)
 
 ## Run your bundle
 
 Now you can run your system and see the result.
 
-![Image Alt](../../img/s1sJYegaRnKxYdqaEDcx_JS-6.png)
+![Image Alt](../../img/bundle-your-js-8.png)
 
 ## Install your bundle in another system
 

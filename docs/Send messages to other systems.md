@@ -17,10 +17,10 @@ After creating your system:
 * select **Send messages through a channel** from the proposed systems,
 * click on the **Compose** button,
 
-![Image Alt](../../img/7930644-send-messages.png)
+![Image Alt](../../img/send-messages-to-other-systems.png)
 
 This system has now been composed in your system.
-* on **Schemas** tab, click on **_Channel** model (on the right panel under *Schemas*),
+* on **Schemas** tab, click on **_Channel** schema (on the right panel under *Schemas*),
 * click on **_Channel** schema to edit it,
 * add **somethingHappened** event:
 
@@ -36,7 +36,7 @@ This system has now been composed in your system.
 }
 ```
 
-* on **Models** tab, click on **_Channel** model (on the right panel under *Schemas*),
+* on **Models** tab, click on **_Channel** model (on the right panel under *Models*),
 * click on **_Channel** model to edit it
 
 ```json

@@ -23,14 +23,14 @@ First create a schema that:
 * has a **source** property and
 * a **render** method.
 
-![Image Alt](../../img/db62a8a-html-1.png)
+![Image Alt](../../img/bundle-your-html-1.png)
 
 Then edit the model:
 
 * change the type of **source** in from *any* to *html* and
-* remove *result* property of *render* method. This method will have no return value.
+* change the type of the fist parameter from *any* to *string*.
 
-![Image Alt](../../img/8d80b70-html-2.png)
+![Image Alt](../../img/bundle-your-html-2.png)
 
 ## Code the behavior of render method
 
@@ -38,7 +38,7 @@ Edit the **render** method of the model as follow:
 
 ```js
 function render(id) {
-  var dom = null;
+  let dom = null;
 
   if (id === 'body') {
     dom = document.body;
@@ -50,13 +50,13 @@ function render(id) {
 }
 ```
 
-![Image Alt](../../img/c2e2831-html-3.png)
+![Image Alt](../../img/bundle-your-html-3.png)
 
 ## Create a HTML component
 
 Now create a *HTML* component from the interface.
 
-![Image Alt](../../img/d0ba85f-html-31.png)
+![Image Alt](../../img/bundle-your-html-4.png)
 
 Then edit the component. You will notice that a **source** tab appears. It will allow you to add your html in your component. Put the HTML you want. In this example we set:
 
@@ -64,11 +64,15 @@ Then edit the component. You will notice that a **source** tab appears. It will 
 <input type="text" name="input" placeholder="Enter some text here">
 ```
 
-![Image Alt](../../img/cecf9db-html-4.png)
+![Image Alt](../../img/bundle-your-html-5.png)
 
 >**What happens?**
 >
 >Because in the model you tell that **source** property has for type *html*. System Designer let you edit this property as HTML. It means that System Designer will check that the html you write is correct.
+
+Then click on the **Component** tab to edit the *__id_* property value of the component:
+
+![Image Alt](../../img/bundle-your-html-6.png)
 
 ## Render your component in your application
 
@@ -79,17 +83,17 @@ Edit the **start** method of your system and:
 
 ```js
 function start() { 
-  this.require('1863d11bd718bab').render('body');
+  this.require('inputComponent').render('body');
 }
 ```
 
-![Image Alt](../../img/ef1e377-html-5.png)
+![Image Alt](../../img/bundle-your-html-7.png)
 
 ## Run your bundle
 
 Now you can run your system and see the result.
 
-![Image Alt](../../img/d0gTDrY7TcyRtBd3EYg7_html-6.png)
+![Image Alt](../../img/bundle-your-html-8.png)
 
 ## Install your bundle in another system
 
