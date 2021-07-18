@@ -25,7 +25,7 @@ Taken from [TodoMVC](http://todomvc.com). Based on the work made by TasteJS (und
 
 [See the example](https://designfirst.io/examples/todo-mvc.html)
 
-![Image Alt](../../img/f6ea2c1-todomvc.png)
+![Image Alt](../../img/list-examples-todomvc.png)
 
 ## Create a DVD collection
 
@@ -37,7 +37,7 @@ If you create a DVD Component when running the system, the list will be automati
 
 [See the example](https://designfirst.io/examples/dvd-collection.html)
 
-![Image Alt](../../img/977ebe8-dvd-collection.png)
+![Image Alt](../../img/list-examples-dvd-collection.png)
 
 ## Create a filtering list
 
@@ -51,7 +51,7 @@ If you create a DVD Component when running the system, the list will be automati
 
 [See the example](https://designfirst.io/examples/filtering-list.html)
 
-![Image Alt](../../img/3193a8c-filtering-list.png)
+![Image Alt](../../img/list-examples-filtering-list.png)
 
 ## Create a Web Component
 
@@ -63,4 +63,4 @@ note: the purpose of the example is to show how easily you can create Web Compon
 
 [See the example](https://designfirst.io/examples/web-components.html)
 
-![Image Alt](../../img/95ab82a-web-component.png)
+![Image Alt](../../img/list-examples-web-component.png)

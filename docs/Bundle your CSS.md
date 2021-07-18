@@ -23,14 +23,14 @@ First create a schema that:
 * has a **source** property and
 * a **render** method.
 
-![Image Alt](../../img/vAtEpbhUR26p9ySPsjGH_css-1.png)
+![Image Alt](../../img/bundle-your-css-1.png)
 
 Then edit the model:
 
 * change the type of **source** in from *any* to *css* and
 * remove all  of *render* method and rename parameter *param* to *id*.
 
-![Image Alt](../../img/92216bc-css-2.png)
+![Image Alt](../../img/bundle-your-css-2.png)
 
 ## Code the behavior of render method
 
@@ -45,13 +45,13 @@ function render() {
 }
 ```
 
-![Image Alt](../../img/94a5826-css-3.png)
+![Image Alt](../../img/bundle-your-css-3.png)
 
 ## Create a CSS component
 
 Now create a *CSS* component from the interface:
 
-![Image Alt](../../img/85828be-css-31.png)
+![Image Alt](../../img/bundle-your-css-4.png)
 
 Then edit the component by clicking on it. You will notice that a **source** tab appears. It will allow you to add your css in your component. Put the css you want. In this example we set:
 
@@ -61,11 +61,22 @@ body {
 }
 ```
 
-![Image Alt](../../img/838b677-css-4.png)
+![Image Alt](../../img/bundle-your-css-5.png)
 
 >**What happens?**
 >
 >Because in the model you tell that **source** property has for type *css*. System Designer let you edit this property as CSS. It means that System Designer will check that the css you write is correct.
+
+Then click on the **Component** tab to edit the *__id_* property value of the component:
+
+```json
+{
+	"_id": "grayColor",
+	"source": "body {\n  background-color: gray;\n}"
+}
+```
+
+![Image Alt](../../img/bundle-your-css-6.png)
 
 ## Render your component in your application
 
@@ -76,17 +87,17 @@ Edit the **start** method of your system and:
 
 ```js
 function start() { 
-  this.require('1543b1380212aa2').render();
+  this.require('grayColor').render();
 }
 ```
 
-![Image Alt](../../img/d990ce7-css-5.png)
+![Image Alt](../../img/bundle-your-css-7.png)
 
 ## Run your system
 
 Now you can run your system and see the result.
 
-![Image Alt](../../img/5v6Spcu9SzaNaA7KC7le_css-6.png)
+![Image Alt](../../img/bundle-your-css-8.png)
 
 ## Install your bundle in another system
 
