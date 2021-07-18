@@ -12,7 +12,11 @@ You can export your system in many formats.
 
 ## Exportation
 
-To export a system just click on the *export* button (the icon with a square and an arrow to the bottom). You will able to export the system to:
+To export a system just click on the *export* button (the icon with a square and an arrow to the bottom). 
+
+![Image Alt](../../img/export-a-system-dialog.png)
+
+You will able to export the system to:
 
 - a **JSON** file,
 - a **JavaScript** file,
@@ -220,4 +224,4 @@ If you choose **[Graphviz](https://graphviz.org)** type of exportation, your sys
 
 >You can preview the diagram of an external DOT file by dropping it in the Class Diagram viewer.
 
-![Image Alt](../../img/52c0985-class-diagram-viewer.png)
+![Image Alt](../../img/export-a-system-diagram.png)

@@ -23,21 +23,21 @@ To enable *design* mode on your application, just add [mode-admin extension](htt
 * In System Designer, on the left toolbar, click on the 'configuration' icon. A configuration panel is then shown.
 * Set the url of the page you want to debug (example: *https://designfirst.io/examples/example02.html*).
 
-![Image Alt](../../img/7507956-configuration.png)
+![Image Alt](../../img/design-a-remote-client-configuration.png)
 
 ## Design your system
 
 * Then on the left toolbar, click on the 'design' icon (the square with a pen icon). Your application is then opened in a new page.
 
-![Image Alt](../../img/30917c1-run.png)
+![Image Alt](../../img/design-a-remote-client-run.png)
 
 * Now click again on the same icon. A message is then shown to inform you that a system has been found and it is ready to be imported.
 
-![Image Alt](../../img/9989ec2-search.png)
+![Image Alt](../../img/design-a-remote-client-search.png)
 
 * Click on *Import* button. The system is then imported.
 
-![Image Alt](../../img/1a07cd2-import.png)
+![Image Alt](../../img/design-a-remote-client-import.png)
 
 Now you can explore your system. 
 

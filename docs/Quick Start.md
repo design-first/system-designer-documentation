@@ -15,7 +15,7 @@ A system:
 - is composed by **components** and
 - reacts to events with **actions** that we call **behaviors**.
 
-![Image Alt](../../img/6565096-UuhkIYCaRY6IpUFVFY7Q_system.png)
+![Image Alt](../../img/quick-start-diagram.png)
 
 ## What is the system that we will create ?
 

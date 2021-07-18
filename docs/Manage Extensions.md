@@ -22,17 +22,17 @@ Extensions are in fact systems that can be installed on the fly in System Design
 * a dialog is shown,
 * select the extension you want to install
 
-![Image Alt](../../img/5fc4f55-install-extension.png)
+![Image Alt](../../img/manage-extensions-dialog.png)
 
 * click on the *Add* button,
 * you will see a message that tells that the extension is installed
 
-![Image Alt](../../img/70c3ea2-extension-installed.png)
+![Image Alt](../../img/manage-extensions-extension-installed.png)
 
 * a new icon appears on the left toolbar,
 * click on it,
 
-![Image Alt](../../img/31c58bc-create-a-model.png)
+![Image Alt](../../img/manage-extensions-create-a-model.png)
 
 * you can now use the extension.
 

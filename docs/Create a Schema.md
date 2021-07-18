@@ -17,7 +17,7 @@ To create a schema in System Designer:
 * then click on *Create* button,
 * a new schema is now created and appears in the *Schema* list:
 
-![Image Alt](../../img/8d678d7-schema-create.png)
+![Image Alt](../../img/create-a-schema-create.png)
 
 ## Schema edition
 
@@ -25,12 +25,12 @@ To create a schema in System Designer:
 * an editor will open the content of the schema,
 * you can now edit your schema:
 
-![Image Alt](../../img/df8a98c-schema-edit.png)
+![Image Alt](../../img/create-a-schema-edit.png)
 
 * go back to the **Schemas** tab and
 * your modifications have been updated.
 
-![Image Alt](../../img/962d821-schema-prop.png)
+![Image Alt](../../img/create-a-schema-prop.png)
 
 ## Define inheritance
 
@@ -38,7 +38,7 @@ To add inheritance between your schemas, you need to add the **_inherit** proper
 
 ```json
 {
-  "_id": "m1da931573d19acc",
+  "_id": "ee8b5c97-cb89-4cdf-82b3-d9d8bea23ac5",
   "_name": "Jedi",
   "_inherit": [
     "Person"
@@ -52,7 +52,7 @@ To define a property, add a key that has got a **property** value.
 
 ```json
 {
-  "_id": "m1da931573d19acc",
+  "_id": "ee8b5c97-cb89-4cdf-82b3-d9d8bea23ac5",
   "_name": "Jedi",
   "name": "property"
 }
@@ -64,7 +64,7 @@ To define a link between models, add a key that has got a **link** value. A link
 
 ```json
 {
-  "_id": "m1da931573d19acc",
+  "_id": "ee8b5c97-cb89-4cdf-82b3-d9d8bea23ac5",
   "_name": "Jedi",
   "father": "link"
 }
@@ -79,7 +79,7 @@ To define a collection, add a key that has got a **collection** value. A collect
 
 ```json
 {
-  "_id": "m1da931573d19acc",
+  "_id": "ee8b5c97-cb89-4cdf-82b3-d9d8bea23ac5",
   "_name": "Jedi",
   "children": "collection"
 }
@@ -91,7 +91,7 @@ To define a method, add a key that has got a **method** value.
 
 ```json
 {
-  "_id": "m1da931573d19acc",
+  "_id": "ee8b5c97-cb89-4cdf-82b3-d9d8bea23ac5",
   "_name": "Jedi",
   "fullName": "method"
 }
@@ -103,7 +103,7 @@ To define an event, add a key that has got an **event** value. An event is a asy
 
 ```json
 {
-  "_id": "m1da931573d19acc",
+  "_id": "ee8b5c97-cb89-4cdf-82b3-d9d8bea23ac5",
   "_name": "Jedi",
   "statusChanged": "event"
 }

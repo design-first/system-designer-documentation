@@ -14,13 +14,13 @@ To create a type in System Designer:
 * click on the '+' button on the left toolbar,
 * type the *name* of your type, 
 
-![Image Alt](../../img/cUcboJ04RNmxM9wh7XRw_type.png)
+![Image Alt](../../img/create-a-type-dialog.png)
 
 * click on *Enumeration* checkbox if you want to create an enumeration,
 * then click on *Create* button,
 * a new type is now created and appears in the *Types* list:
 
-![Image Alt](../../img/9ab26f0-type.png)
+![Image Alt](../../img/create-a-type.png)
 
 * this new type can be then used in your model.
 
@@ -30,7 +30,7 @@ To create a type in System Designer:
 * an editor will open the content of the type, 
 * you can now edit the type:
 
-![Image Alt](../../img/40a37d4-type-edit.png)
+![Image Alt](../../img/create-a-type-edit.png)
 
 You can then use this new type on a model.
 
@@ -40,7 +40,7 @@ To define an enumeration, juste click on the *Enumeration* checkbox when creatin
 
 ```json
 {
-  "_id": "g130f01354c1adc4",
+  "_id": "a44f44d2-7bcb-4bce-9638-d61dc595e873",
   "name": "color",
   "description": "list of colors",
   "type": "string",
@@ -60,7 +60,7 @@ To define an alias, just set the *type* information.
 
 ```json
 {
-  "_id": "e1acfa1718b10bf0",
+  "_id": "a44f44d2-7bcb-4bce-9638-d61dc595e873",
   "name": "title",
   "description": "Title of a movie",
   "type": "string"
@@ -75,7 +75,7 @@ If you want to define a new type that is a structure, do not click on the *Enume
 
 ```json
 {
-  "_id": "z1c72b1a7fd16202",
+  "_id": "a44f44d2-7bcb-4bce-9638-d61dc595e873",
   "name": "address",
   "description": "an address",
   "type": "object",
@@ -103,7 +103,7 @@ In this example we have defined *address* type that is composed of a *city*, *zi
 
 ```json
 {
-  "_id":"l15786120601c163",
+  "_id":"edb7ddc1-d0ef-4477-b1ee-c8f309cd6991",
   "location": {
     "city":"paris",
     "zip": 75015,
@@ -118,8 +118,8 @@ To use the new type in a model, just set the *type* value with the new created t
 
 ```json
 {
-  "_id": "d1da7110a801058d",
-  "_name": "Person",
+  "_id": "aae7856b-e531-479d-9ddc-ae7590e4ca93",
+  "_name": "Jedi",
   "_description": "",
   "name": {
     "description": "",

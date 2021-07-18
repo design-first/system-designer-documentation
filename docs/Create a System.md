@@ -20,4 +20,4 @@ To create a system in System Designer:
 * then click on *Create* button,
 * a new system is now created and appears in the *Systems* list:
 
-![Image Alt](../../img/e838b06-system.png)
+![Image Alt](../../img/create-a-system.png)

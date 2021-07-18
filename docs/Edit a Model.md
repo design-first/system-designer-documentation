@@ -14,7 +14,7 @@ To edit a model in System Designer:
 * click on the **Models** tab and
 * you will see all the generated models.
 
-![Image Alt](../../img/cd61e9c-model.png)
+![Image Alt](../../img/edit-a-model.png)
 
 ## Model edition
 
@@ -22,7 +22,7 @@ To edit a model in System Designer:
 * an editor will open the content of the model,
 * you can now edit its properties by updating its configuration: 
 
-![Image Alt](../../img/c51f2db-model-edit.png)
+![Image Alt](../../img/edit-a-model-edit.png)
 
 ## Edit a configuration
 
@@ -81,7 +81,7 @@ For example, if you have added in the schema:
 
 ```json
 {
-  "_id": "m1229c1d58217741",
+  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
   "name": "property"
 }
@@ -91,7 +91,7 @@ A new configuration will be then added in the model:
 
 ```json
 {
-  "_id": "q17fc81a8f817e3d",
+  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
   "name": {
     "type": "any",
@@ -111,7 +111,7 @@ For example, if you have added in the schema:
 
 ```json
 {
-  "_id": "m1229c1d58217741",
+  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
   "father": "link"
 }
@@ -121,7 +121,7 @@ A new configuration will be then added in the model:
 
 ```json
 {
-  "_id": "q17fc81a8f817e3d",
+  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
   "father": {
     "type": "_Component",
@@ -141,7 +141,7 @@ For example, if you have added in the schema:
 
 ```json
 {
-  "_id": "m1229c1d58217741",
+  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
   "father": "collection"
 }
@@ -151,7 +151,7 @@ A new configuration will be then added in the model:
 
 ```json
 {
-  "_id": "q17fc81a8f817e3d",
+  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
   "father": {
     "type": [
@@ -173,7 +173,7 @@ For example, if you have added in the schema:
 
 ```json
 {
-  "_id": "m1229c1d58217741",
+  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
   "fullname": "method"
 }
@@ -183,7 +183,7 @@ A new configuration will be then added in the model:
 
 ```json
 {
-  "_id": "q17fc81a8f817e3d",
+  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
   "fullname": {
     "params": [
@@ -208,7 +208,7 @@ For example, if you have added in the schema:
 
 ```json
 {
-  "_id": "m1229c1d58217741",
+  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
   "changed": "event"
 }
@@ -218,7 +218,7 @@ A new configuration will be then added in the model:
 
 ```json
 {
-  "_id": "q17fc81a8f817e3d",
+  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
   "father": {
     "params": [

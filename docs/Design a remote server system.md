@@ -31,17 +31,17 @@ runtime.install('mysystem.json');
 * Click on *Server-side* as value for *Type of debugging*,
 * Set the url of the server you want to debug (example: *http://localhost*).
 
-![Image Alt](../../img/69bc616-debug-1.png)
+![Image Alt](../../img/design-a-remote-server-system-1.png)
 
 ## Design your system
 
 * Then on the left toolbar, click on the 'design' icon (the square with a pen icon). A message is then shown to inform you that a system has been found and it is ready to be imported.
 
-![Image Alt](../../img/9b531ad-debug-2.png)
+![Image Alt](../../img/design-a-remote-server-system-2.png)
 
 * Click on *Import* button. The system is then imported.
 
-![Image Alt](../../img/2f0824c-debug-3.png)
+![Image Alt](../../img/design-a-remote-server-system-3.png)
 
 Now you can explore your system. 
 

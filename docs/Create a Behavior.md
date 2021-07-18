@@ -20,7 +20,7 @@ To create a behavior in System Designer:
 * then click on *Create* button,
 * a new behavior is now created and appears in the *Behaviors* list:
 
-![Image Alt](../../img/4c505d0-behavior.png)
+![Image Alt](../../img/create-a-behavior.png)
 
 >**What is a state?**
 >
@@ -36,7 +36,7 @@ To create a behavior in System Designer:
 * an editor will open the content of the behavior, 
 * you can implement now your behavior:
 
-![Image Alt](../../img/dd2fe2b-behavior-edit.png)
+![Image Alt](../../img/create-a-behavior-edit.png)
 
 ## Use a property
 
@@ -45,7 +45,7 @@ For example, if you have added in the schema:
 
 ```json
 {
-  "_id": "m1229c1d58217741",
+  "_id": "fff15dad-7b8d-4a16-8de8-0c8890f75550",
   "_name": "Jedi",
   "name": "property"
 }
@@ -71,7 +71,7 @@ For example, if you have added in the schema:
 
 ```json
 {
-  "_id": "m1229c1d58217741",
+  "_id": "fff15dad-7b8d-4a16-8de8-0c8890f75550",
   "_name": "Jedi",
   "father": "link"
 }
@@ -97,7 +97,7 @@ For example, if you have added in the schema:
 
 ````json
 {
-  "_id": "m1229c1d58217741",
+  "_id": "fff15dad-7b8d-4a16-8de8-0c8890f75550",
   "_name": "Jedi",
   "children": "collection"
 }
@@ -138,7 +138,7 @@ For example, if you have added in the schema:
 
 ```json
 {
-  "_id": "m1229c1d58217741",
+  "_id": "fff15dad-7b8d-4a16-8de8-0c8890f75550",
   "_name": "Jedi",
   "fullName": "method"
 }
@@ -158,7 +158,7 @@ For example, if you have added in the schema:
 
 ```json
 {
-  "_id": "m1229c1d58217741",
+  "_id": "fff15dad-7b8d-4a16-8de8-0c8890f75550",
   "_name": "Jedi",
   "changed": "event"
 }
@@ -271,7 +271,7 @@ this.require('db').collections().Person.remove({
 
 First, you need to activate *advanced mode*. To do so, go to *System Designer* configuration panel and click on **Advanced mode** checkbox. Then you a new tab called **Behavior** will appear when you edit a behavior. Click on this tab to override some internal values for the current behavior.
 
-![Image Alt](../../img/5ea2863-behavior-edit2.png)
+![Image Alt](../../img/create-a-behavior-advanced.png)
 
 You can for example
 

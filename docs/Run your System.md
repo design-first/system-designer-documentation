@@ -49,7 +49,7 @@ function start() {
 * click on the **Logs** tab and
 * all the logs will be shown there.
 
-![Image Alt](../../img/2cfa521-messages.png)
+![Image Alt](../../img/run-your-system-messages.png)
 
 >**How can I log informations?**
 >
@@ -75,7 +75,7 @@ When running your application:
 
 The [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools/) is opened and you can debug your system by adding for example some **debugger** instructions in the code of your behaviors.
 
-![Image Alt](../../img/ac7ce0e-debugger.png)
+![Image Alt](../../img/run-your-system-debugger.png)
 
 >**Use System Runtime APIS**
 >

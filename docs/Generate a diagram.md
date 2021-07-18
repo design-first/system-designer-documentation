@@ -16,11 +16,11 @@ To generate a css diagram:
 * just click on the corresponding button in the toolbar (the 5th button from the top)
 * or type *Command* + *D* (on macOS) / *Control* + *D* (on Windows).
 
-![Image Alt](../../img/d21695c-class-diagram-open.png)
+![Image Alt](../../img/generate-a-diagram-open.png)
 
 Then a new window will open and you will see the diagram of your system.
 
-![Image Alt](../../img/06210c8-class-diagram-view.png)
+![Image Alt](../../img/generate-a-diagram-view.png)
 
 You will be able to:
 *  zoom in/out 
@@ -30,7 +30,7 @@ You will be able to:
 
 If you work on your system when your diagram window is still open, you will notice that the diagram is generated everytime you update the schema, model or component of the system. So keep the diagram window open, you will find this way of working very useful.
 
-![Image Alt](../../img/30283ed-class-diagram-updated.png)
+![Image Alt](../../img/generate-a-diagram-updated.png)
 
 ## Diagram exportation
 

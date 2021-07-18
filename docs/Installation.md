@@ -94,8 +94,8 @@ Then in your [System Designer for Cordova](https://github.com/design-first/syste
 
 ```sh
 # build for ios
-cordova build ios
+npx cordova build ios
 
 # build for android
-cordova build android
+npx cordova build android
 ```
