@@ -31,9 +31,3 @@ You will be able to:
 If you work on your system when your diagram window is still open, you will notice that the diagram is generated everytime you update the schema, model or component of the system. So keep the diagram window open, you will find this way of working very useful.
 
 ![Image Alt](../../img/generate-a-diagram-updated.png)
-
-## Diagram exportation
-
-You can save the diagram in *SVG* by clicking on the export button. 
-
-> Remember that you export the diagram at the zoom the diagram is. So it is generally better to export the diagram when diagram is at Zoom x1.
