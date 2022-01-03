@@ -7,7 +7,9 @@ const siteConfig = {
   projectName: '',
   organizationName: '',
 
-  headerLinks: [],
+  headerLinks: [{ 
+    languages: true 
+  }],
 
   headerIcon: 'img/logo.png',
   footerIcon: 'img/logo.png',
