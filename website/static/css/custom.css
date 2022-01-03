@@ -195,3 +195,15 @@ blockquote {
 .onPageNav .toc-headings>li>a.active  {
   color: #717171!important;
 }
+
+/* languages dropdown icon */
+
+.languages-icon {
+  display: none;
+}
+
+/* translate icon */
+
+.edit-page-link.button {
+  display: none;
+}

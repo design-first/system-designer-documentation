@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2017-present, Facebook, Inc.
+ * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -152,7 +152,7 @@ const languages = [
     tag: 'sr',
   },
   {
-    enabled: false,
+    enabled: true,
     name: 'Svenska',
     tag: 'sv-SE',
   },
@@ -176,6 +176,6 @@ const languages = [
     name: '中文',
     tag: 'zh-CN',
   },
-  {enabled: false, name: '繁體中文', tag: 'zh-TW'},
+  {enabled: true, name: '繁體中文', tag: 'zh-TW'},
 ];
 module.exports = languages;
