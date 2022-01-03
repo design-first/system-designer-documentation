@@ -11,3 +11,4 @@ website/build
 website/i18n/*
 website/yarn.lock
 website/translated_docs
+website/crowdin.yml
