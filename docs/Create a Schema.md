@@ -97,6 +97,10 @@ To define a method, add a key that has got a **method** value.
 }
 ```
 
+>**Important note on renaming**
+>
+> If you rename an existing method, it will delete the method and create a new one. So any code related to the previous method will be deleted.
+
 ## Define an event
 
 To define an event, add a key that has got an **event** value. An event is a asynchronous method.
