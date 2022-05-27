@@ -9,14 +9,14 @@ You can edit these models and update many informations (type, default value, ...
 
 ## View your models
 
-To edit a model in System Designer:
+To vies your models in System Designer:
 
 * click on the **Models** tab and
 * you will see all the generated models.
 
 ![Image Alt](../../img/edit-a-model.png)
 
-## Model edition
+## Edit a model
 
 * click on a model,
 * an editor will open the content of the model,
@@ -24,36 +24,9 @@ To edit a model in System Designer:
 
 ![Image Alt](../../img/edit-a-model-edit.png)
 
-## Edit a configuration
+## What is a configuration?
 
 A configuration is an object that defines the behavior of a property / link / collection / method / event of a model.
-
-You can edit for a *property*:
-
-- **type**:  what is the type to the property ?
-- **readOnly**: can we change the value of a property after its initialization ?
-- **mandatory**: is the property mandatory when creating an instance of the model ?
-- **default**: what is the default value of the property ?
-
->the **default** value needs to have the type defined in **type** property.
-
-You can edit for a *link* or a *collection*:
-
-- **type**:  what is the type to the link ?
-- **readOnly**: can we change the value of a link after its initialization ?
-- **mandatory**: is the link mandatory when creating an instance of the model ?
-- **default**: what is the default value of the link ?
-
->the **default** value needs to have the type defined in **type** property.
-
-- **kind**: what is the kind of relationship ?
-
->the **kind** property is used only in the Class diagram to specify the kind of link to show (i.e. *dependency*, *aggregation* or *composition*)
-
-You can edit for a *method* / *event*:
-
-- **params**:  what are the parameters ?
-- **result**: what is the type of the returned value ?
 
 >**What types can be set in models?**
 >
@@ -87,13 +60,15 @@ For example, if you have added in the schema:
 }
 ```
 
-A new configuration will be then added in the model:
+A new configuration will be then generated in the model:
 
 ```json
 {
-  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
+  "_id": "fbb6878d-c7af-4997-a717-0a42cbc6edb0",
   "_name": "Jedi",
+  "_description": "",
   "name": {
+    "description": "",
     "type": "any",
     "readOnly": false,
     "mandatory": false,
@@ -104,10 +79,17 @@ A new configuration will be then added in the model:
 
 This new property has **any** type, can be set, is not mandatory and has **""** for default value. You can then edit all this configuration.
 
+In the configuration object of a *property* you have:
+
+- **description : string**, comments about the property.
+- **type : string|array**, the type to the property.
+- **readOnly : boolean**, *true* if we can we change the value of a property after its initialization.
+- **mandatory : boolean**, *true* if the property is mandatory when creating an instance of the model.
+- **default: any**, default value of the property. It needs to have the type defined in **type** property.
+
 ## Edit a link
 
-When you define in the schema a **link**, a configuration will be then added in the model.
-For example, if you have added in the schema:
+When you define in the schema a **link**, a configuration will be then added in the model. For example, if you have added in the schema:
 
 ```json
 {
@@ -117,14 +99,17 @@ For example, if you have added in the schema:
 }
 ```
 
-A new configuration will be then added in the model:
+A new configuration will be then generated in the model:
 
 ```json
 {
-  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
+  "_id": "fbb6878d-c7af-4997-a717-0a42cbc6edb0",
   "_name": "Jedi",
+  "_description": "",
   "father": {
+    "description": "",
     "type": "_Component",
+    "kind": "normal",
     "readOnly": false,
     "mandatory": false,
     "default": ""
@@ -133,6 +118,15 @@ A new configuration will be then added in the model:
 ```
 
 This new link has **_Component** type (it means that it can be any kind of component), can be set, is not mandatory and has **""** for default value. You can then edit all this configuration.
+
+In the configuration object of a *link* you have:
+
+- **description : string**, comments about the link.
+- **type : string|array**, the type to the link.
+- **kind : [normal|dependency|aggregation|composition]**, the kind of relationship. It is used only in the Class diagram to specify the kind of link to show.
+- **readOnly : boolean**, *true* if we can we change the value of a link after its initialization.
+- **mandatory : boolean**, *true* if the link is mandatory when creating an instance of the model.
+- **default: any**, default value of the link.It needs to have the type defined in **type** property.
 
 ## Edit a collection
 
@@ -147,29 +141,39 @@ For example, if you have added in the schema:
 }
 ```
 
-A new configuration will be then added in the model:
+A new configuration will be then generated in the model:
 
 ```json
 {
-  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
+  "_id": "fbb6878d-c7af-4997-a717-0a42cbc6edb0",
   "_name": "Jedi",
+  "_description": "",
   "father": {
-    "type": [
-      "_Component"
-    ],
+    "description": "",
+    "type": ["_Component"],
+    "kind": "normal",
     "readOnly": false,
     "mandatory": false,
     "default": []
   }
 }
+
 ```
 
 This new collection is a collection of **_Component** type (it means that it can be a collection of any kind of component), can be set, is not mandatory and has **[]** for default value. You can then edit all this configuration.
 
+In the configuration object of a *collection* you have:
+
+- **description : string**, comments about the collection.
+- **type : array**, the type to the collection.
+- **kind : [normal|dependency|aggregation|composition]**, the kind of relationship. It is used only in the Class diagram to specify the kind of link to show.
+- **readOnly : boolean**, *true* if we can we change the value of a collection after its initialization.
+- **mandatory : boolean**, *true* if the collection is  mandatory when creating an instance of the model.
+- **default: any**, default value of the collection. It needs to have the type defined in **type** property.
+
 ## Edit a method
 
-When you define in the schema a **method**, a configuration will be then added in the model.
-For example, if you have added in the schema:
+When you define in the schema a **method**, a configuration will be then added in the model. For example, if you have added in the schema:
 
 ```json
 {
@@ -179,15 +183,18 @@ For example, if you have added in the schema:
 }
 ```
 
-A new configuration will be then added in the model:
+A new configuration will be then generated in the model:
 
 ```json
 {
-  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
+  "_id": "fbb6878d-c7af-4997-a717-0a42cbc6edb0",
   "_name": "Jedi",
+  "_description": "",
   "fullname": {
+    "description": "",
     "params": [
       {
+        "description": "",
         "name": "param",
         "type": "any",
         "mandatory": false,
@@ -201,10 +208,20 @@ A new configuration will be then added in the model:
 
 This new method has one parameter, **param**, of type **any** that is not mandatory and has **null** for default value. This method returns a result of type **any**. You can then edit all this configuration.
 
+In the configuration object of a *method* you have:
+
+- **description : string**, comments about the method.
+- **params : array**, the parameters of the method. A parameter is defined by a configuration object that has for properties:
+  - **description : string**, comments about the parameter.
+  - **name : string**, the name of the parameter.
+  - **type : string|array**, the type of the parameter.
+  - **mandatory : boolean**, *true* if the parameter is mandatory when invoking the method.
+  - **default: any**, default value of the parameter. It needs to have the type defined in **type** property.
+- **result : string|array**, the type of the returned value.
+
 ## Edit an event
 
-When you define in the schema an **event**, a configuration will be then added in the model.
-For example, if you have added in the schema:
+When you define in the schema an **event**, a configuration will be then added in the model. For example, if you have added in the schema:
 
 ```json
 {
@@ -214,15 +231,18 @@ For example, if you have added in the schema:
 }
 ```
 
-A new configuration will be then added in the model:
+A new configuration will be then generated in the model:
 
 ```json
 {
-  "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
+  "_id": "fbb6878d-c7af-4997-a717-0a42cbc6edb0",
   "_name": "Jedi",
-  "father": {
+  "_description": "",
+  "changed": {
+    "description": "",
     "params": [
       {
+        "description": "",
         "name": "param",
         "type": "any",
         "mandatory": false,
@@ -234,6 +254,16 @@ A new configuration will be then added in the model:
 ```
 
 This new event has one parameter, **param** of type **any** that is not mandatory and has **null** for default value. You can then edit all this configuration.
+
+In the configuration object of an *event* you have:
+
+- **description : string**, comments about the event.
+- **params : array**, the parameters of the event. A parameter is defined by a configuration object that has for properties:
+  - **description : string**, comments about the parameter.
+  - **name : string**, the name of the parameter.
+  - **type : string|array**, the type of the parameter.
+  - **mandatory : boolean**, *true* if the parameter is mandatory when sending the event.
+  - **default: any**, default value of the parameter. It needs to have the type defined in **type** property.
 
 >**Want to know more?**
 >

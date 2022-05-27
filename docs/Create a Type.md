@@ -6,7 +6,7 @@ sidebar_label: Create a Type
 
 Types defined in System Designer can be the used in *type* property of a model.
 
-## Type creation
+## Create a type
 
 To create a type in System Designer:
 
@@ -24,19 +24,17 @@ To create a type in System Designer:
 
 * this new type can be then used in your model.
 
-## Type edition
+## Update a type
 
 * click on the created type,
 * an editor will open the content of the type, 
-* you can now edit the type:
+* you can now edit the configuration of the type:
 
 ![Image Alt](../../img/create-a-type-edit.png)
 
-You can then use this new type on a model.
-
 ## Define an enumeration
 
-To define an enumeration, juste click on the *Enumeration* checkbox when creating a type. Then set the type of your enumeration (its *any* by default) and add all the value of your enumeration in the *value* array.
+To define an enumeration click on the *Enumeration* checkbox when creating a type. Then set the *type* of your enumeration (it is *any* by default) and add all the value of your enumeration in the *value* array.
 
 ```json
 {
@@ -53,24 +51,32 @@ To define an enumeration, juste click on the *Enumeration* checkbox when creatin
 }
 ```
 
-In the example we have a *color* enumeration that is a *string* enumeration that contains *blue*, *red* *,green* and *maroon*.
+In the example we have defined a *color* type that is a *string* enumeration. It could have for value: *blue*, *red*, *green* or *maroon*.
+
+In the configuration object of a *enumeration* you have:
+
+- **_id : string**, unique id of the enumeration.
+- **name : string**, name of the enumeration.
+- **description : string**, comments about the enumeration.
+- **type : string|array**, the type of the enumeration.
+- **value : array**, possible values of the enumeration.
+
+>**What types can be set?**
+>
+>- **boolean**, **string**, **number**, **array**, **date**: standard types,
+>- **object**: for non typed object,
+>- **css**, **html**, **javascript**, **json**, **text**: for live editing of CSS, HTML, JavaScript, JSON or a text and
+>- **any**: for any kind of type.
 
 ## Use an enumeration in the model
 
-To use the new type in a model, just set the *type* value with the new created type.
+To use an enumeration type in a model set the *type* value of a property with an enumeration type.
 
 ```json
 {
   "_id": "aae7856b-e531-479d-9ddc-ae7590e4ca93",
   "_name": "Jedi",
   "_description": "",
-  "name": {
-    "description": "",
-    "type": "string",
-    "readOnly": false,
-    "mandatory": false,
-    "default": ""
-   },
   "eyeColor": {
     "description": "",
     "type": "eyeColor",
@@ -81,25 +87,26 @@ To use the new type in a model, just set the *type* value with the new created t
 }
 ```
 
-In this example, a *Jedi* model, *eyeColor* has *eyeColor* type.
+In this example, a *Jedi* model, *eyeColor* has *eyeColor* type, which is an enumeration type.
 
->When defining a type in the model, do not forget to set a *default* value.
+>When defining a type in the model do not forget to set a *default* value.
 
 ## Use an enumeration in a component
 
-This type can be used to define eyeColor value in a component:
+This type can be used to define *eyeColor* value in a component:
 
 ```json
 {
-  "_id": "edb7ddc1-d0ef-4477-b1ee-c8f309cd6991",
-  "name": "luke",
+  "_id": "luke",
   "eyeColor": "maroon"
 }
 ```
 
+>if a not valid value is set for an enumeration you will have an error message in the logs.
+
 ## Use an enumeration in the code
 
-If a type is an enumeration, you can get and set its value very easily. 
+You can get and set an enumeration very easily with APIs:
 
 ```js
 const luke = this.require('luke');
@@ -108,10 +115,8 @@ const luke = this.require('luke');
 luke.eyeColor();
 
 // set the eyeColor of luke component
-luke.eyeColor('marroon');
+luke.eyeColor('maroon');
 ```
-
-In this example *location* has *address* type. Because it has got a *city* property, we can get and set its values with APIs.
 
 ## Define a structure
 
@@ -145,22 +150,33 @@ If you want to define a new type that is a structure, do not click on the *Enume
 
 In this example we have defined *address* type that is composed of a *city*, *zip* and *street* property. 
 
+In the configuration object of a *enumeration* you have:
+
+- **_id : string**, unique id of the structure.
+- **name : string**, name of the structure.
+- **description : string**, comments about the structure.
+- **type : string|array**, the type of the structure. Must be object.
+- **schema : array**, the properties of the structure. A property is defined by a configuration object that has for properties:
+  - **type : string|array**, the type of the property.
+  - **mandatory : boolean**, *true* if the property is mandatory.
+  - **default: any**, default value of the property. It needs to have the type defined in **type** property.
+
+>**What types can be set?**
+>
+>- **boolean**, **string**, **number**, **array**, **date**: standard types,
+>- **object**: for non typed object,
+>- **css**, **html**, **javascript**, **json**, **text**: for live editing of CSS, HTML, JavaScript, JSON or a text and
+>- **any**: for any kind of type.
+
 ## Use a structure in the model
 
-To use the new type in a model, just set the *type* value with the new created type.
+To use the new type in a model set the *type* value of a property with the new created type.
 
 ```json
 {
   "_id": "aae7856b-e531-479d-9ddc-ae7590e4ca93",
   "_name": "Jedi",
   "_description": "",
-  "name": {
-    "description": "",
-    "type": "string",
-    "readOnly": false,
-    "mandatory": false,
-    "default": ""
-   },
   "location": {
     "description": "",
     "type": "address",
@@ -173,16 +189,15 @@ To use the new type in a model, just set the *type* value with the new created t
 
 In this example, a *Jedi* model, *location* has *address* type.
 
->When defining a type in the model, do not forget to set a *default* value.
+>When defining a type in the model do not forget to set a *default* value.
 
 ## Use a structure in a component
 
-This type can be used to define location value in a component:
+
 
 ```json
 {
-  "_id": "edb7ddc1-d0ef-4477-b1ee-c8f309cd6991",
-  "name": "luke",
+  "_id": "luke",
   "location": {
     "city": "Tatooine city",
     "zip": 12345,
@@ -209,7 +224,7 @@ In this example *location* has *address* type. Because it has got a *city* prope
 
 ## Define an alias
 
-To organize your type you can define an alias. To do that just set the *type* information with the corresponding type.
+To organize your type you can define an alias for a type. To do that just set the *type* information with the corresponding type.
 
 ```json
 {
@@ -220,4 +235,19 @@ To organize your type you can define an alias. To do that just set the *type* in
 }
 ```
 
-In this example *title* type is a *string* and can be used in your model as an alias of *string* type.
+In this example *title* type is a *string* and can be used in your model as an alias of *string* type. Example:
+
+```json
+{
+  "_id": "aae7856b-e531-479d-9ddc-ae7590e4ca94",
+  "_name": "Movie",
+  "_description": "",
+  "title": {
+    "description": "title of the movie",
+    "type": "title",
+    "readOnly": false,
+    "mandatory": false,
+    "default": ""
+  }
+}
+```

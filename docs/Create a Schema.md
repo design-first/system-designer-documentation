@@ -7,7 +7,7 @@ sidebar_label: Create a Schema
 A schema helps you to define your model. 
 A schema generates a model based on very simple informations. You can then edit the generated model.
 
-## Schema creation
+## Create a schema
 
 To create a schema in System Designer:
 
@@ -19,11 +19,11 @@ To create a schema in System Designer:
 
 ![Image Alt](../../img/create-a-schema-create.png)
 
-## Schema edition
+## Edit a schema
 
 * then click on the created schema,
 * an editor will open the content of the schema,
-* you can now edit your schema:
+* you can now edit the configuration of the schema:
 
 ![Image Alt](../../img/create-a-schema-edit.png)
 
@@ -32,23 +32,33 @@ To create a schema in System Designer:
 
 ![Image Alt](../../img/create-a-schema-prop.png)
 
+## What is a configuration?
+
+A configuration is an object in which you declare the link / collection / method / event of the model.
+
+In the configuration object you have by default these properties:
+
+- **_id : string**, unique id of your schema.
+- **_name : string**, name of your schema.
+
 ## Define inheritance
 
-To add inheritance between your schemas, you need to add the **_inherit** property to your schemas. This property is an array in which you put all the schemas that this schema must inherit.
+To add inheritance between your schemas you need to add the **_inherit** property. This property is an *array* in which you put all the schema names that this schema must inherit.
 
 ```json
 {
   "_id": "ee8b5c97-cb89-4cdf-82b3-d9d8bea23ac5",
   "_name": "Jedi",
-  "_inherit": [
-    "Person"
-  ]
+  "_inherit": ["Person"]
 }
+
 ```
+
+In this example *Jedi* schema inherits from *Person*. 
 
 ## Define a property
 
-To define a property, add a key that has got a **property** value.
+To define a property add a key that has got a **property** value.
 
 ```json
 {
@@ -57,6 +67,8 @@ To define a property, add a key that has got a **property** value.
   "name": "property"
 }
 ```
+
+In this example *Jedi* has a *name* property. 
 
 ## Define a link
 
@@ -70,9 +82,11 @@ To define a link between models, add a key that has got a **link** value. A link
 }
 ```
 
+In this example *Jedi* has a *father* link.
+
 ## Define a collection
 
-To define a collection, add a key that has got a **collection** value. A collection can be:
+To define a collection add a key that has got a **collection** value. A collection can be:
 
 - a collection of typed objects (example: adresse, ...) or
 - a collection of components (i.e. like a 1-N link between models).
@@ -85,9 +99,11 @@ To define a collection, add a key that has got a **collection** value. A collect
 }
 ```
 
+In this example *Jedi* has a *children* collection.
+
 ## Define a method
 
-To define a method, add a key that has got a **method** value.
+To define a method add a key that has got a **method** value.
 
 ```json
 {
@@ -97,13 +113,15 @@ To define a method, add a key that has got a **method** value.
 }
 ```
 
+In this example we have defined a *fullName* method for *Jedi*.
+
 >**Important note on renaming**
 >
 > If you rename an existing method, it will delete the method and create a new one. So any code related to the previous method will be deleted.
 
 ## Define an event
 
-To define an event, add a key that has got an **event** value. An event is a asynchronous method.
+To define an event add a key that has got an **event** value. An event is a asynchronous method.
 
 ```json
 {
@@ -112,6 +130,8 @@ To define an event, add a key that has got an **event** value. An event is a asy
   "statusChanged": "event"
 }
 ```
+
+In this example we have defined a *statusChanged* event for *Jedi*.
 
 >**Want to know more?**
 > 
