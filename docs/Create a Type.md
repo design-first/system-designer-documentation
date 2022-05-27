@@ -47,27 +47,71 @@ To define an enumeration, juste click on the *Enumeration* checkbox when creatin
   "value": [
     "blue",
     "red",
-    "green"
+    "green",
+    "maroon"
   ]
 }
 ```
 
-In the example we have a *color* enumeration that is a *string* enumeration that contains *blue*, *red* and *green*.
+In the example we have a *color* enumeration that is a *string* enumeration that contains *blue*, *red* *,green* and *maroon*.
 
-## Define an alias
+## Use an enumeration in the model
 
-To define an alias, just set the *type* information.
+To use the new type in a model, just set the *type* value with the new created type.
 
 ```json
 {
-  "_id": "a44f44d2-7bcb-4bce-9638-d61dc595e873",
-  "name": "title",
-  "description": "Title of a movie",
-  "type": "string"
+  "_id": "aae7856b-e531-479d-9ddc-ae7590e4ca93",
+  "_name": "Jedi",
+  "_description": "",
+  "name": {
+    "description": "",
+    "type": "string",
+    "readOnly": false,
+    "mandatory": false,
+    "default": ""
+   },
+  "eyeColor": {
+    "description": "",
+    "type": "eyeColor",
+    "readOnly": false,
+    "mandatory": false,
+    "default": "maroon"
+   },
 }
 ```
 
-In this example *title* type is a *string*.
+In this example, a *Jedi* model, *eyeColor* has *eyeColor* type.
+
+>When defining a type in the model, do not forget to set a *default* value.
+
+## Use an enumeration in a component
+
+This type can be used to define eyeColor value in a component:
+
+```json
+{
+  "_id": "edb7ddc1-d0ef-4477-b1ee-c8f309cd6991",
+  "name": "luke",
+  "eyeColor": "maroon"
+}
+```
+
+## Use an enumeration in the code
+
+If a type is an enumeration, you can get and set its value very easily. 
+
+```js
+const luke = this.require('luke');
+
+// get the eyeColor of luke component
+luke.eyeColor();
+
+// set the eyeColor of luke component
+luke.eyeColor('marroon');
+```
+
+In this example *location* has *address* type. Because it has got a *city* property, we can get and set its values with APIs.
 
 ## Define a structure
 
@@ -99,20 +143,9 @@ If you want to define a new type that is a structure, do not click on the *Enume
 }
 ```
 
-In this example we have defined *address* type that is composed of a *city*, *zip* and *street* property. This type can be used to define location value in this component:
+In this example we have defined *address* type that is composed of a *city*, *zip* and *street* property. 
 
-```json
-{
-  "_id": "edb7ddc1-d0ef-4477-b1ee-c8f309cd6991",
-  "location": {
-    "city": "paris",
-    "zip": "75015",
-    "country": "France"
-  }
-}
-```
-
-## Use a new type in the model
+## Use a structure in the model
 
 To use the new type in a model, just set the *type* value with the new created type.
 
@@ -138,11 +171,27 @@ To use the new type in a model, just set the *type* value with the new created t
 }
 ```
 
-In this example, a Person model, location has address type.
+In this example, a *Jedi* model, *location* has *address* type.
 
 >When defining a type in the model, do not forget to set a *default* value.
 
-## Use a structured type in the code
+## Use a structure in a component
+
+This type can be used to define location value in a component:
+
+```json
+{
+  "_id": "edb7ddc1-d0ef-4477-b1ee-c8f309cd6991",
+  "name": "luke",
+  "location": {
+    "city": "Tatooine city",
+    "zip": 12345,
+    "country": "Tatooine"
+  }
+}
+```
+
+## Use a structure in the code
 
 If a type is a structure, you can get and set its values very easily. 
 
@@ -157,3 +206,18 @@ luke.location().country('Tatooine');
 ```
 
 In this example *location* has *address* type. Because it has got a *city* property, we can get and set its values with APIs.
+
+## Define an alias
+
+To organize your type you can define an alias. To do that just set the *type* information with the corresponding type.
+
+```json
+{
+  "_id": "a44f44d2-7bcb-4bce-9638-d61dc595e873",
+  "name": "title",
+  "description": "Title of a movie",
+  "type": "string"
+}
+```
+
+In this example *title* type is a *string* and can be used in your model as an alias of *string* type.
