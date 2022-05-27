@@ -147,11 +147,13 @@ In this example, a Person model, location has address type.
 If a type is a structure, you can get and set its values very easily. 
 
 ```js
-// get the city value
-this.location().city();
+const luke = this.require('luke');
 
-// set the city value
-this.location().city('Rennes');
+// get the country of luke component
+luke.location().country();
+
+// set the country of luke component
+luke.location().country('Tatooine');
 ```
 
 In this example *location* has *address* type. Because it has got a *city* property, we can get and set its values with APIs.
