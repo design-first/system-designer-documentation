@@ -152,7 +152,7 @@ If you want to define a new type that is a structure, do not click on the *Enume
 }
 ```
 
-In this example we have defined *address* type that is composed of a *city*, *zip* and *street* property. 
+In this example we have defined *address* type that is composed of a *city*, *zip* and *country* property. 
 
 In the configuration object of a *enumeration* you have:
 
