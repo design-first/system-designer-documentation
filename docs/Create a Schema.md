@@ -34,7 +34,7 @@ To create a schema in System Designer:
 
 ## What is a configuration?
 
-A configuration is an object in which you declare the link / collection / method / event of the model.
+A configuration is an object in which you declare the property / link / collection / method / event of the model.
 
 In the configuration object you have by default these properties:
 
