@@ -32,6 +32,10 @@ To create a type in System Designer:
 
 ![Image Alt](../../img/create-a-type-edit.png)
 
+## What is a configuration?
+
+A configuration is an object in which you declare the properties of your type.
+
 ## Define an enumeration
 
 To define an enumeration click on the *Enumeration* checkbox when creating a type. Then set the *type* of your enumeration (it is *any* by default) and add all the value of your enumeration in the *value* array.
@@ -58,7 +62,7 @@ In the configuration object of a *enumeration* you have:
 - **_id : string**, unique id of the enumeration.
 - **name : string**, name of the enumeration.
 - **description : string**, comments about the enumeration.
-- **type : string|array**, the type of the enumeration.
+- **type : string**, the type of the enumeration.
 - **value : array**, possible values of the enumeration.
 
 >**What types can be set?**
@@ -156,7 +160,7 @@ In the configuration object of a *enumeration* you have:
 - **name : string**, name of the structure.
 - **description : string**, comments about the structure.
 - **type : string|array**, the type of the structure. Must be object.
-- **schema : array**, the properties of the structure. A property is defined by a configuration object that has for properties:
+- **schema : object**, the properties of the structure. A property is defined by a configuration object that has for properties:
   - **type : string|array**, the type of the property.
   - **mandatory : boolean**, *true* if the property is mandatory.
   - **default: any**, default value of the property. It needs to have the type defined in **type** property.
@@ -220,7 +224,7 @@ luke.location().country();
 luke.location().country('Tatooine');
 ```
 
-In this example *location* has *address* type. Because it has got a *city* property, we can get and set its values with APIs.
+In this example *location* has *address* type. Because it has got a *country* property we can get and set its values with APIs.
 
 ## Define an alias
 
