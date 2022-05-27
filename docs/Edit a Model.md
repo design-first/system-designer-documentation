@@ -137,7 +137,7 @@ For example, if you have added in the schema:
 {
   "_id": "c04bbcea-d1ec-43f0-be52-c7f1bf3120f5",
   "_name": "Jedi",
-  "father": "collection"
+  "children": "collection"
 }
 ```
 
@@ -148,7 +148,7 @@ A new configuration will be then generated in the model:
   "_id": "fbb6878d-c7af-4997-a717-0a42cbc6edb0",
   "_name": "Jedi",
   "_description": "",
-  "father": {
+  "children": {
     "description": "",
     "type": ["_Component"],
     "kind": "normal",
