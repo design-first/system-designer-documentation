@@ -77,13 +77,13 @@ A new configuration will be then generated in the model:
 }
 ```
 
-This new property has **any** type, can be set, is not mandatory and has **""** for default value. You can then edit all this configuration.
+This new property has **any** type, it can be updated, it is not mandatory and has **""** for default value. You can then edit all this configuration.
 
 In the configuration object of a *property* you have:
 
 - **description : string**, comments about the property.
 - **type : string|array**, the type to the property.
-- **readOnly : boolean**, *true* if we can we change the value of a property after its initialization.
+- **readOnly : boolean**, *true* if we can change the value of a property after its initialization.
 - **mandatory : boolean**, *true* if the property is mandatory when creating an instance of the model.
 - **default: any**, default value of the property. It needs to have the type defined in **type** property.
 
@@ -117,16 +117,16 @@ A new configuration will be then generated in the model:
 }
 ```
 
-This new link has **_Component** type (it means that it can be any kind of component), can be set, is not mandatory and has **""** for default value. You can then edit all this configuration.
+This new link has **_Component** type (it means that it can be any kind of component), it can be updated, it is not mandatory and has **""** for default value. You can then edit all this configuration.
 
 In the configuration object of a *link* you have:
 
 - **description : string**, comments about the link.
 - **type : string|array**, the type to the link.
 - **kind : [normal|dependency|aggregation|composition]**, the kind of relationship. It is used only in the Class diagram to specify the kind of link to show.
-- **readOnly : boolean**, *true* if we can we change the value of a link after its initialization.
+- **readOnly : boolean**, *true* if we can change the value of a link after its initialization.
 - **mandatory : boolean**, *true* if the link is mandatory when creating an instance of the model.
-- **default: any**, default value of the link.It needs to have the type defined in **type** property.
+- **default: any**, default value of the link. It needs to have the type defined in **type** property.
 
 ## Edit a collection
 
@@ -160,14 +160,14 @@ A new configuration will be then generated in the model:
 
 ```
 
-This new collection is a collection of **_Component** type (it means that it can be a collection of any kind of component), can be set, is not mandatory and has **[]** for default value. You can then edit all this configuration.
+This new collection is a collection of **_Component** type (it means that it can be a collection of any kind of component), it can be updated, it is not mandatory and has **[]** for default value. You can then edit all this configuration.
 
 In the configuration object of a *collection* you have:
 
 - **description : string**, comments about the collection.
 - **type : array**, the type to the collection.
 - **kind : [normal|dependency|aggregation|composition]**, the kind of relationship. It is used only in the Class diagram to specify the kind of link to show.
-- **readOnly : boolean**, *true* if we can we change the value of a collection after its initialization.
+- **readOnly : boolean**, *true* if we can change the value of a collection after its initialization.
 - **mandatory : boolean**, *true* if the collection is  mandatory when creating an instance of the model.
 - **default: any**, default value of the collection. It needs to have the type defined in **type** property.
 
