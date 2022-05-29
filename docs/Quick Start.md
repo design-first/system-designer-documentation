@@ -61,20 +61,20 @@ Now let's create this system.
 ![Image Alt](../../img/quick-start-2.png)
 
 * click on it,
-* update the schema with this: 
+* update the schema with: 
 
 ```json
 {
-   "_id": "1e378193da16eef",
-   "_name": "Jedi",
-   "_inherit": [
-     "_Component"
-   ],
-   "firstName": "property",
-   "lastName": "property",
-   "father": "link",
-   "fullName": "method"
- }
+  "_id": "1e378193da16eef",
+  "_name": "Jedi",
+  "_inherit": [
+    "_Component"
+  ],
+  "firstName": "property",
+  "lastName": "property",
+  "father": "link",
+  "fullName": "method"
+}
 ```
 
 * save (by clicking on the first icon of the toolbar).
@@ -199,7 +199,7 @@ function fullName() {
 
 >**What are the informations set by default ?**
 >
->All the value of the **attributes**, **links** or **collections** are set with the **default** property value of the model.
+>The component unique identifier **_id** (used to *require* the component) and the values of the **attributes**, **links** or **collections** of the model (set with their **default** property value).
 
 * click on it,
 * update the component with this:
@@ -235,6 +235,12 @@ function fullName() {
 
 ![Image Alt](../../img/quick-start-11.png)
 
+>**What has be done ?**
+>
+>In this example, we have:
+>- created a *Jedi* component that has for *id* **vader**,
+>- and created a *Jedi* component that has for id **luke**, in this component we set the value of **father** link property with the *id* of the related *Jedi* component, **vader**.
+
 ## Add code on the start method of the system
 
 >The **start** method of your system is the entry point of your system. It is there that you put the business logic of your system.
@@ -266,6 +272,8 @@ function start() {
 * save.
 
 ![Image Alt](../../img/quick-start-13.png)
+
+>in a start method **this** refers to the current system.
 
 >**What is a logger component ?**
 >
@@ -301,9 +309,8 @@ Then a new window will open and you will see the class diagram of your system.
 ![Image Alt](../../img/quick-start-14.png)
 
 You will be able to:
-* zoom in/out ,
-* move the diagram to explore the model or
-* export it to SVG.
+* zoom in/out or
+* move the diagram to explore the model.
 
 >You can also view the **Component diagram** and **Graph diagram** (if your system is a Graph) of your system.
 
