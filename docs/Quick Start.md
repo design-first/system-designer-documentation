@@ -237,9 +237,9 @@ function fullName() {
 
 >**What has be done ?**
 >
->In this example, we have:
->- created a *Jedi* component that has for *id* **vader**,
->- and created a *Jedi* component that has for id **luke**, in this component we set the value of **father** link property with the *id* of the related *Jedi* component, **vader**.
+>In this example we have:
+>- created a *Jedi* component that has for *id* **vader** and
+>- created a *Jedi* component that has for id **luke**, in this component we set the value of **father** link property with the *id* of the related *Jedi* component, **vader**.
 
 ## Add code on the start method of the system
 
@@ -273,7 +273,7 @@ function start() {
 
 ![Image Alt](../../img/quick-start-13.png)
 
->in a start method **this** refers to the current system.
+>in *start* method **this** refers to the current system.
 
 >**What is a logger component ?**
 >
