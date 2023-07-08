@@ -47,9 +47,9 @@ const languages = [
     tag: 'de',
   },
   {
-    enabled: false,
+    enabled: true,
     name: 'Ελληνικά',
-    tag: 'el',
+    tag: 'el-GR',
   },
   {
     enabled: false,
