@@ -1,5 +1,8 @@
 # System Designer Documentation
 
+This repository contains the documentation of [System Designer](https://github.com/design-first/system-designer) that is available [online](https://designfirst.io/systemdesigner/documentation/).
+You can use this project to read the documentation locally.
+
 ![Image Alt](https://designfirst.io/img/system-designer-documentation.png)
 
 ## Installation
@@ -23,7 +26,7 @@ npm i
 npm run build
 ```
 
-Then go to `build` folder and open `index.html`.
+Then go to `build` folder and open `index.html` in your browser to read the documentation.
 
 ## Development
 
@@ -35,7 +38,7 @@ npm run start
 - A browser will open the documentation site. If not, go to `http://localhost:3000`.
 - Update the documentation in `docs` folder.
 
-> Note: the page is automatically refreshed when you modify the documentationx.
+> Note: the page is automatically refreshed when you modify the documentation.
 
 ## Licenses
 
