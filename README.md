@@ -25,6 +25,18 @@ npm run build
 
 Then go to `build` folder and open `index.html`.
 
+## Development
+
+- Rename `siteConfig.website.js` to `siteConfig.js`.
+- Start the server:
+```sh
+npm run start
+```
+- A browser will open the documentation site. If not, go to `http://localhost:3000`.
+- Update the documentation in `docs` folder.
+
+> Note: the page is automatically refreshed when you modify the documentationx.
+
 ## Licenses
 
 ### Docusaurus
@@ -53,7 +65,7 @@ THE SOFTWARE.
 
 ### System Designer
 
-Copyright © 2022 Erwan Carriou
+Copyright © 2023 Erwan Carriou
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

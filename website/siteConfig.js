@@ -22,10 +22,11 @@ const siteConfig = {
     secondaryColor: '#f8f8f8'
   },
 
-  copyright: 'System Designer is distributed under Apache License 2.0 - Copyright © 2022 Erwan Carriou',
+  copyright: 'System Designer is distributed under Apache License 2.0 - Copyright © 2023 Erwan Carriou',
 
   highlight: {
-    theme: 'zenburn'
+    theme: 'zenburn',
+    themeUrl : '../../css/zenburn.css'
   },
 
   scripts: [
