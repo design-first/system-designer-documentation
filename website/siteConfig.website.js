@@ -24,7 +24,7 @@ const siteConfig = {
     secondaryColor: '#f8f8f8'
   },
 
-  copyright: 'System Designer is distributed under Apache License 2.0 - Copyright © 2024 Erwan Carriou',
+  copyright: 'System Designer is distributed under Apache License 2.0 - Copyright © 2026 Erwan Carriou',
 
   highlight: {
     theme: 'zenburn',
